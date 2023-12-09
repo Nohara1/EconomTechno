@@ -1,3 +1,23 @@
+$flex: flex;
+$column: column;
+$width-desctop: 100%;
+$heith-desctop: 100%;
+
+
 html{
-    background-color: red;
+    scroll-behavior: smooth;
+    body{
+        display: $flex;
+        flex-direction: $column;
+        align-items: center;
+        width: $width-desctop;
+        height: $width-desctop;
+        margin: 0 auto;
+        header{
+            display: $flex;
+            width: $width-desctop;
+            height: 150px;
+            justify-content: center;
+        }
+    }
 };
