@@ -16,7 +16,7 @@
   \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./img/washing_machine.svg */ \"./src/header/img/washing_machine.svg\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar code = \"<div class=\\\"header__container\\\">\\r\\n    <img src=\\\" \" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\" alt=\\\"logo\\\" class=\\\"header__container-logo\\\">\\r\\n</div>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://economtechno/./src/header/index.html?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./img/logo.png */ \"./src/header/img/logo.png\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar code = \"<div class=\\\"header__container\\\">\\r\\n    <img src=\\\" \" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\" alt=\\\"logo\\\" class=\\\"header__logo\\\">\\r\\n    <div class=\\\"header__row\\\">\\r\\n        <div class=\\\"header__burger\\\">\\r\\n            <nav class=\\\"header__nav\\\">\\r\\n                <ul class=\\\"header__menu\\\">\\r\\n                    <li class=\\\"menu__item\\\">Католог</li>\\r\\n                    <li class=\\\"menu__item\\\">Акции</li>\\r\\n                    <li class=\\\"menu__item\\\">Доставка</li>\\r\\n                    <li class=\\\"menu__item\\\">О нас</li>\\r\\n                    <li class=\\\"menu__item last\\\">Контакты</li>\\r\\n                </ul>\\r\\n            </nav>\\r\\n        </div>\\r\\n    </div>\\r\\n</div>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://economtechno/./src/header/index.html?");
 
 /***/ }),
 
@@ -80,13 +80,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./src/header/img/washing_machine.svg":
-/*!********************************************!*\
-  !*** ./src/header/img/washing_machine.svg ***!
-  \********************************************/
+/***/ "./src/header/img/logo.png":
+/*!*********************************!*\
+  !*** ./src/header/img/logo.png ***!
+  \*********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"fa35dbaadea881847f96.svg\";\n\n//# sourceURL=webpack://economtechno/./src/header/img/washing_machine.svg?");
+eval("module.exports = __webpack_require__.p + \"84a8bdf0104e08ea192a.png\";\n\n//# sourceURL=webpack://economtechno/./src/header/img/logo.png?");
 
 /***/ })
 
