@@ -3,7 +3,6 @@ $column: column;
 $width-desctop: 100%;
 $heith-desctop: 100%;
 
-
 html{
     scroll-behavior: smooth;
     body{
@@ -16,7 +15,7 @@ html{
         header{
             display: $flex;
             width: $width-desctop;
-            height: 150px;
+            height: 120px;
             justify-content: center;
         }
     }
