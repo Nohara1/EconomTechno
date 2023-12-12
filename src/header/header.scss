@@ -1,6 +1,7 @@
 $color-text: black;
 $color-link: #8c8a86;
 $color-hover: red;
+$color-back: white;
 $font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 @mixin flex($align: center){
@@ -20,7 +21,7 @@ a{
 }
 .header__container{
     @include flex();
-    max-width: 1170px;
+    width: 1170px;
     .header__logo{
         width: 324px;
         height: 75px;
@@ -64,6 +65,7 @@ a{
     }
 }
 .menu__submenu-first{
+    background-color: $color-back;
     @include opacity();
     width: 280px;
     height: 365px;
@@ -92,6 +94,7 @@ a{
 .menu__submenu-second{
     @include opacity();
     width: 330px;
+    background-color: $color-back;
     border: 0.5px solid $color-link;
     border-radius: 10px;
     position: absolute;

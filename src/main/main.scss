@@ -1,0 +1,128 @@
+$font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+@mixin flex(){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__container{
+    width: 100%;
+    height: 100%;
+}
+.hero{
+    width: 100%;
+    height: 490px;
+    padding: 120px 0px 0px;
+    .hero__bg{
+        @include flex();
+        width: 100%;
+        height: 100%;
+        picture{
+            z-index: -1;
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 502px;
+            object-fit: cover;
+            object-position: center;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .hero__container{
+            width: 1170px;
+            height: 100%;
+            @include flex();
+            .hero__textbox{
+                font-family: $font;
+                text-align: center;
+                width: 700px;
+                height: 40%;
+                background-color: rgba(255,255,255,.78);
+                padding: 50px 30px ;
+                font-size: 18px;
+                h1{
+                    font-size: 40px;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+.catalog{
+    @include flex();
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    margin: 0;
+    margin-top: 40px;
+    .catalog__textbox{
+        width: 768px;
+        text-align: center;
+        height: 120px;
+        padding-bottom: 60px;
+        h2{
+            font-size: 40px;
+        }
+    }
+    .catalog__slidercards{
+        @include flex();
+        width: 1700px;
+        height: 100%;
+        .swiper-container {
+            width: 100%; 
+            height: 100%;
+            .swiper-wrapper {
+                width: 100%; 
+                height: 100%; 
+                display: flex;
+                .swiper-slide {
+                    display: flex;
+                    justify-content: space-around;
+                    flex-shrink: 0; 
+                    width: 100%; 
+                    height: 100%;
+                    .slide{
+                        font-family: $font;
+                        display: flex;
+                        text-align: center;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 400px;
+                        height: 586px;
+                        padding: 10px;
+                        .slide-photo{
+                            display: flex;
+                            height: 310px;
+                            align-items: center;
+                        }
+                        .slide-description{
+                            text-align: start;
+                            height: 150px;
+                            padding-top: 30px;
+                            font-size: 18px;
+                            margin: 0 auto;
+                        }
+                        .slide-name{
+                            height: 50px;
+                            text-decoration: none;
+                            font-weight: 600;
+                            font-size: 20px;
+                            padding-top: 40px;
+                        }
+                        .slide-name:hover{
+                            text-decoration: underline;
+                        }
+                        .slide-price{
+                            font-size: 30px;
+                            color: red;
+                        }
+                        
+                    }
+                } 
+            } 
+        }   
+    }
+}
