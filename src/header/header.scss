@@ -46,7 +46,7 @@ a{
                 margin-left: 5em;
                 .first:hover{
                     .menu__submenu-first{
-                        transition: all 0.5s ease-out;
+                        transition: all 0.3s ease-out;
                         opacity: 1;
                         visibility: visible;
                     }
@@ -56,7 +56,7 @@ a{
                     font-family: $font;
                     padding: 1em;
                     .menu__link:hover{
-                        transition: color .4s;
+                        transition: color 0.3s;
                         color: $color-hover;
                     }
                 }
@@ -86,7 +86,7 @@ a{
             .menu__submenu-second{
                 opacity: 1;
                 visibility: visible;
-                transition: all 1s ease-out;
+                transition: all 0.3s ease-out;
             }
         }
     }

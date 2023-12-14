@@ -66,7 +66,7 @@ a {
         text-align: center;
         margin-left: 5em; }
         .header__row .header__burger .header__nav .header__menu .first:hover .menu__submenu-first {
-          transition: all 0.5s ease-out;
+          transition: all 0.3s ease-out;
           opacity: 1;
           visibility: visible; }
         .header__row .header__burger .header__nav .header__menu .menu__item {
@@ -74,7 +74,7 @@ a {
           font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
           padding: 1em; }
           .header__row .header__burger .header__nav .header__menu .menu__item .menu__link:hover {
-            transition: color .4s;
+            transition: color 0.3s;
             color: red; }
 
 .menu__submenu-first {
@@ -98,7 +98,7 @@ a {
     .menu__submenu-first .active:hover .menu__submenu-second {
       opacity: 1;
       visibility: visible;
-      transition: all 1s ease-out; }
+      transition: all 0.3s ease-out; }
 
 .menu__submenu-second {
   visibility: hidden;
@@ -172,7 +172,7 @@ a {
           font-size: 40px;
           margin: 0 auto; }
 
-.catalog {
+.popular {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -181,60 +181,106 @@ a {
   height: 700px;
   margin: 0;
   margin-top: 40px; }
-  .catalog .catalog__textbox {
+  .popular .popular__textbox {
     width: 768px;
     text-align: center;
     height: 120px;
     padding-bottom: 60px; }
-    .catalog .catalog__textbox h2 {
+    .popular .popular__textbox h2 {
       font-size: 40px; }
-  .catalog .catalog__slidercards {
+  .popular .popular__slidercards {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 1700px;
     height: 100%; }
-    .catalog .catalog__slidercards .swiper-container {
+    .popular .popular__slidercards .swiper-container {
       width: 100%;
       height: 100%; }
-      .catalog .catalog__slidercards .swiper-container .swiper-wrapper {
+      .popular .popular__slidercards .swiper-container .swiper-wrapper {
         width: 100%;
         height: 100%;
         display: flex; }
-        .catalog .catalog__slidercards .swiper-container .swiper-wrapper .swiper-slide {
+        .popular .popular__slidercards .swiper-container .swiper-wrapper .swiper-slide {
           display: flex;
           justify-content: space-around;
           flex-shrink: 0;
           width: 100%;
           height: 100%; }
-          .catalog .catalog__slidercards .swiper-container .swiper-wrapper .swiper-slide .slide {
+          .popular .popular__slidercards .swiper-container .swiper-wrapper .swiper-slide .slide:hover {
+            transform: translateY(-60px); }
+          .popular .popular__slidercards .swiper-container .swiper-wrapper .swiper-slide .slide {
             font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
             display: flex;
-            text-align: center;
+            align-items: center;
+            justify-content: center;
             flex-direction: column;
             align-items: center;
             width: 400px;
             height: 586px;
-            padding: 10px; }
-            .catalog .catalog__slidercards .swiper-container .swiper-wrapper .swiper-slide .slide .slide-photo {
+            padding: 10px;
+            transition: transform 0.3s ease; }
+            .popular .popular__slidercards .swiper-container .swiper-wrapper .swiper-slide .slide .slide-photo {
               display: flex;
               height: 310px;
               align-items: center; }
-            .catalog .catalog__slidercards .swiper-container .swiper-wrapper .swiper-slide .slide .slide-description {
+            .popular .popular__slidercards .swiper-container .swiper-wrapper .swiper-slide .slide .slide-description {
               text-align: start;
               height: 150px;
               padding-top: 30px;
               font-size: 18px;
               margin: 0 auto; }
-            .catalog .catalog__slidercards .swiper-container .swiper-wrapper .swiper-slide .slide .slide-name {
+            .popular .popular__slidercards .swiper-container .swiper-wrapper .swiper-slide .slide .slide-name {
               height: 50px;
               text-decoration: none;
               font-weight: 600;
               font-size: 20px;
               padding-top: 40px; }
-            .catalog .catalog__slidercards .swiper-container .swiper-wrapper .swiper-slide .slide .slide-name:hover {
+            .popular .popular__slidercards .swiper-container .swiper-wrapper .swiper-slide .slide .slide-name:hover {
               text-decoration: underline; }
-            .catalog .catalog__slidercards .swiper-container .swiper-wrapper .swiper-slide .slide .slide-price {
+            .popular .popular__slidercards .swiper-container .swiper-wrapper .swiper-slide .slide .slide-price {
               font-size: 30px;
               color: red; }
+
+.catalog-cards {
+  margin-top: 70px;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .catalog-cards .catalog-cards__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1300px;
+    height: 100%; }
+    .catalog-cards .catalog-cards__container .container-row {
+      justify-content: space-evenly;
+      display: flex;
+      height: 390px; }
+      .catalog-cards .catalog-cards__container .container-row .catalog-cards__card {
+        border-radius: 20px;
+        background-color: red;
+        width: 400px;
+        height: 100%; }
+        .catalog-cards .catalog-cards__container .container-row .catalog-cards__card .card-info {
+          text-align: center; }
+          .catalog-cards .catalog-cards__container .container-row .catalog-cards__card .card-info .h3 {
+            font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+            color: whitesmoke;
+            font-size: 24px; }
+          .catalog-cards .catalog-cards__container .container-row .catalog-cards__card .card-info .card-button {
+            width: 300px;
+            height: 50px;
+            border-radius: 100px;
+            border: 1px solid red;
+            font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+            font-size: 24px;
+            margin-top: 10px;
+            transition: all 0.5s ease;
+            cursor: pointer; }
+            .catalog-cards .catalog-cards__container .container-row .catalog-cards__card .card-info .card-button:hover {
+              background-color: #7d7f7d;
+              color: whitesmoke; }
 
