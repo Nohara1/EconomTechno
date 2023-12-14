@@ -27,7 +27,7 @@ html{
         };
         main{
             @include flex();
-            height: 4000px;
+            height: 4700px;
             width: $width-desctop;
             align-items: center
         }
