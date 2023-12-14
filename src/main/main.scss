@@ -5,6 +5,10 @@ $font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Ar
     justify-content: center;
 }
 
+h2{
+    font-size: 36px;
+}
+
 .main__container{
     width: 100%;
     height: 100%;
@@ -63,9 +67,6 @@ $font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Ar
         text-align: center;
         height: 120px;
         padding-bottom: 60px;
-        h2{
-            font-size: 40px;
-        }
     }
     .popular__slidercards{
         @include flex();
@@ -177,4 +178,62 @@ $font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Ar
         
     }
     
+}
+.advantages{
+    @include flex();
+    padding: 80px 0 20px;
+    .advantages__container{
+        text-align: center;
+        width: 1300px;
+        height: 640px;
+        .advantages__list{
+            padding-top: 30px;
+            width: 100%;
+            height: 520px;
+            display: grid;
+            grid-template-columns: repeat(4, 325px);
+            .advantages-card{
+                height: 260px;
+                transition: all 0.5s ease;
+                .advantage-card__text{
+                    font-family: $font;
+                    text-align: center;
+                    font-size: 20px;
+                }
+                &:hover{
+                    transform: translateY(-60px);
+                }
+            }
+        }
+    }
+}
+.producers{
+    @include flex();
+    .producers__container{
+        text-align: center;
+        width: 1000px;
+        height: 630px;
+        .producers__list{
+            display: grid;
+            height: 500px;
+            grid-template-columns: repeat(4, 240px);
+            gap: 10px;
+            padding-top: 30px;
+            .producers__item{
+                height: 250px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 0.5px  solid;
+                border-radius: 10px;
+                transition: all 0.3s ease;
+                background-color: whitesmoke;
+                position: relative;
+                &:hover{
+                    transform: scale(1.2);
+                    z-index: 1;
+                }
+            }
+        }
+    }
 }
