@@ -10,6 +10,16 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/footer/index.html":
+/*!*******************************!*\
+  !*** ./src/footer/index.html ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./img/logo.png */ \"./src/footer/img/logo.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./img/clock.png */ \"./src/footer/img/clock.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./img/mail.png */ \"./src/footer/img/mail.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ./img/loco.png */ \"./src/footer/img/loco.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ./img/instagram.png */ \"./src/footer/img/instagram.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ./img/tiktok.png */ \"./src/footer/img/tiktok.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ./img/vkontakte.png */ \"./src/footer/img/vkontakte.png\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);\nvar ___HTML_LOADER_REPLACEMENT_2___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_2___);\nvar ___HTML_LOADER_REPLACEMENT_3___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_3___);\nvar ___HTML_LOADER_REPLACEMENT_4___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_4___);\nvar ___HTML_LOADER_REPLACEMENT_5___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_5___);\nvar ___HTML_LOADER_REPLACEMENT_6___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_6___);\nvar code = \"<div class=\\\"footer__container\\\">\\r\\n    <div class=\\\"footer__row\\\">\\r\\n        <div class=\\\"footer__col\\\">\\r\\n            <div class=\\\"footer__logo\\\">\\r\\n                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\" alt=\\\"logo\\\" style=\\\"width: 200px;\\\">\\r\\n            </div>\\r\\n        </div>\\r\\n        <div class=\\\"footer__col\\\">\\r\\n            <div class=\\\"firm-info\\\">\\r\\n                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_1___ + \"\\\" alt=\\\"clock\\\" style=\\\"width: 18px; height: 18px;\\\">\\r\\n                Пн-вс с 10:00 до 20:00\\r\\n            </div>\\r\\n            <div class=\\\"firm-info\\\">\\r\\n                <a data-copy=\\\"economtechno@mail.ru\\\">\\r\\n                    <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_2___ + \"\\\" alt=\\\"mail\\\" style=\\\"width: 18px; height: 18px;\\\">\\r\\n                    economtechno@mail.ru\\r\\n                </a>\\r\\n            </div>\\r\\n        </div>\\r\\n        <div class=\\\"footer__col\\\">\\r\\n            <div class=\\\"firm-location\\\">\\r\\n                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_3___ + \"\\\" alt=\\\"loco\\\" style=\\\"width: 30px; height: 30px;\\\">\\r\\n                <a href=https://yandex.by/maps/org/ekonomtekhno/108084915455/?ll=27.434875%2C53.914363&mode=search&sctx=ZAAAAAgBEAAaKAoSCXmu78NBjjtAES%2F6CtKM80pAEhIJldbfEoB%2F3j8RS5F8JZASxT8iBgABAgMEBSgKOABAnQFIAGoCdWGdAc3MTD2gAQCoAQC9AWj0GgTCAQb%2F2fPSkgPqAQDyAQD4AQCCAhbRjdC60L7QvdC%2B0LzRgtC10YXQvdC%2BigIAkgIAmgIMZGVza3RvcC1tYXBz&sll=27.434875%2C53.914363&sspn=0.059566%2C0.020573&text=эеономтехно&z=15>г.Минск ул. Кунцевщина, 35</a>\\r\\n            </div>\\r\\n        </div>\\r\\n        <div class=\\\"footer__col\\\">\\r\\n            <div class=\\\"firm-info\\\">\\r\\n                <div class=\\\"firm-masanger\\\">\\r\\n                    <a href=\\\"https://www.instagram.com/economtechno/\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_4___ + \"\\\" alt=\\\"instagram\\\">\\r\\n                    </a>\\r\\n                    <a href=\\\"https://www.tiktok.com/@economtechno\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_5___ + \"\\\" alt=\\\"tiktik\\\">\\r\\n                    </a>\\r\\n                    <a href=\\\"https://vk.com/economtechno\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_6___ + \"\\\" alt=\\\"vkontakte\\\">\\r\\n                    </a>\\r\\n                </div>\\r\\n                <div class=\\\"firm-telephone\\\">\\r\\n                    <a href=\\\"tel:+375296669453\\\">+375 29 666 94 53</a>\\r\\n                    <a href=\\\"tel:+375291200217\\\">+375 29 120 02 17</a>\\r\\n                </div>\\r\\n            </div>\\r\\n        </div>\\r\\n    </div>\\r\\n</div>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://economtechno/./src/footer/index.html?");
+
+/***/ }),
+
 /***/ "./src/header/index.html":
 /*!*******************************!*\
   !*** ./src/header/index.html ***!
@@ -37,6 +47,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module) => {
 
 eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    // eslint-disable-next-line no-param-reassign\n    options = {};\n  }\n\n  if (!url) {\n    return url;\n  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign\n\n\n  url = String(url.__esModule ? url.default : url);\n\n  if (options.hash) {\n    // eslint-disable-next-line no-param-reassign\n    url += options.hash;\n  }\n\n  if (options.maybeNeedQuotes && /[\\t\\n\\f\\r \"'=<>`]/.test(url)) {\n    return \"\\\"\".concat(url, \"\\\"\");\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack://economtechno/./node_modules/html-loader/dist/runtime/getUrl.js?");
+
+/***/ }),
+
+/***/ "./src/footer/footer.scss":
+/*!********************************!*\
+  !*** ./src/footer/footer.scss ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://economtechno/./src/footer/footer.scss?");
 
 /***/ }),
 
@@ -70,6 +90,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./src/footer/footer.js":
+/*!******************************!*\
+  !*** ./src/footer/footer.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _footer_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./footer.scss */ \"./src/footer/footer.scss\");\n/* harmony import */ var _index_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.html */ \"./src/footer/index.html\");\n/* harmony import */ var _utils_htmlToElement__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/htmlToElement */ \"./src/utils/htmlToElement.js\");\n\r\n\r\n\r\n\r\n\r\n\r\nconst Footer = (0,_utils_htmlToElement__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(_index_html__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\r\n\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);\n\n//# sourceURL=webpack://economtechno/./src/footer/footer.js?");
+
+/***/ }),
+
 /***/ "./src/header/header.js":
 /*!******************************!*\
   !*** ./src/header/header.js ***!
@@ -86,7 +116,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/styles.scss */ \"./src/scss/styles.scss\");\n/* harmony import */ var _header_header_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header/header.js */ \"./src/header/header.js\");\n/* harmony import */ var _main_main_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./main/main.js */ \"./src/main/main.js\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nconst root = document.querySelector('main');\r\nconst head = document.querySelector('header');\r\n\r\n\r\nhead.append(_header_header_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\r\nroot.append(_main_main_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\r\n\r\nconsole.log(_main_main_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\r\n\r\n\n\n//# sourceURL=webpack://economtechno/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/styles.scss */ \"./src/scss/styles.scss\");\n/* harmony import */ var _header_header_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header/header.js */ \"./src/header/header.js\");\n/* harmony import */ var _main_main_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./main/main.js */ \"./src/main/main.js\");\n/* harmony import */ var _footer_footer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer/footer.js */ \"./src/footer/footer.js\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nconst root = document.querySelector('main');\r\nconst head = document.querySelector('header');\r\nconst foot = document.querySelector('footer');\r\n\r\n\r\nhead.append(_header_header_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\r\nroot.append(_main_main_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\r\nfoot.append(_footer_footer_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"]);\r\n\r\nconsole.log(_main_main_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\r\n\r\n\n\n//# sourceURL=webpack://economtechno/./src/index.js?");
 
 /***/ }),
 
@@ -117,6 +147,76 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__(htmlString){\r\n    const template = document.createElement('template')\r\n    template.innerHTML = htmlString\r\n    return template.content.firstChild\r\n}\n\n//# sourceURL=webpack://economtechno/./src/utils/htmlToElement.js?");
+
+/***/ }),
+
+/***/ "./src/footer/img/clock.png":
+/*!**********************************!*\
+  !*** ./src/footer/img/clock.png ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"3e3908ca7c3ae984bea8.png\";\n\n//# sourceURL=webpack://economtechno/./src/footer/img/clock.png?");
+
+/***/ }),
+
+/***/ "./src/footer/img/instagram.png":
+/*!**************************************!*\
+  !*** ./src/footer/img/instagram.png ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"120706ffd0ec631a24a0.png\";\n\n//# sourceURL=webpack://economtechno/./src/footer/img/instagram.png?");
+
+/***/ }),
+
+/***/ "./src/footer/img/loco.png":
+/*!*********************************!*\
+  !*** ./src/footer/img/loco.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"720e9a2f7409a088c71a.png\";\n\n//# sourceURL=webpack://economtechno/./src/footer/img/loco.png?");
+
+/***/ }),
+
+/***/ "./src/footer/img/logo.png":
+/*!*********************************!*\
+  !*** ./src/footer/img/logo.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"84a8bdf0104e08ea192a.png\";\n\n//# sourceURL=webpack://economtechno/./src/footer/img/logo.png?");
+
+/***/ }),
+
+/***/ "./src/footer/img/mail.png":
+/*!*********************************!*\
+  !*** ./src/footer/img/mail.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"dbd9bd05cf9db3d3ce70.png\";\n\n//# sourceURL=webpack://economtechno/./src/footer/img/mail.png?");
+
+/***/ }),
+
+/***/ "./src/footer/img/tiktok.png":
+/*!***********************************!*\
+  !*** ./src/footer/img/tiktok.png ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"6571e4dc8b36fabfd39e.png\";\n\n//# sourceURL=webpack://economtechno/./src/footer/img/tiktok.png?");
+
+/***/ }),
+
+/***/ "./src/footer/img/vkontakte.png":
+/*!**************************************!*\
+  !*** ./src/footer/img/vkontakte.png ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c293ca71ab1ad9d1d68f.png\";\n\n//# sourceURL=webpack://economtechno/./src/footer/img/vkontakte.png?");
 
 /***/ }),
 

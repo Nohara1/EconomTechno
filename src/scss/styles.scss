@@ -31,5 +31,11 @@ html{
             width: $width-desctop;
             align-items: center
         }
+        footer{
+            @include flex();
+            width: $width-desctop;
+            height: 200px;
+            align-items: center;
+        }
     }
 };
