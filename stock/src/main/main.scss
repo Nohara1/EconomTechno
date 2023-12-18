@@ -21,6 +21,7 @@ $font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Ar
             width: 1170px;
             .catalog-stock__list{
                 @include flex();
+                cursor: pointer;
                 border-radius: 100px;
                 border: 0.5px solid black;
                 width: 100%;
@@ -60,5 +61,16 @@ $font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Ar
             }
         }
     }
+}
+.swal2-confirm.modal__button{
+    background-color: red ;
+}
+.swal2-popup .swal2-title {
+    font-size: 36px;
+    font-family: $font; 
+}
+.swal2-popup .swal2-html-container {
+    font-size: 20px; 
+    font-family: $font; 
 }
 
