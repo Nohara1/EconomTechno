@@ -1,6 +1,6 @@
-/*!***************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/styles.scss ***!
-  \***************************************************************************************************************/
+/*!************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./mainPage/src/scss/styles.scss ***!
+  \************************************************************************************************************************/
 html {
   scroll-behavior: smooth;
   overflow-x: hidden; }
@@ -34,9 +34,9 @@ html {
       height: 200px;
       align-items: center; }
 
-/*!*****************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/header/header.scss ***!
-  \*****************************************************************************************************************/
+/*!**************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./mainPage/src/header/header.scss ***!
+  \**************************************************************************************************************************/
 a {
   cursor: pointer;
   text-decoration: underline;
@@ -83,6 +83,13 @@ a {
           .header__row .header__burger .header__nav .header__menu .menu__item .menu__link:hover {
             transition: color 0.3s;
             color: red; }
+
+.header__basket {
+  display: flex;
+  flex-direction: row;
+  gap: 30px; }
+  .header__basket .basket__link:hover {
+    transform: scale(1.2); }
 
 .menu__submenu-first {
   background-color: white;
@@ -132,9 +139,9 @@ a {
 .lvl5 {
   top: 80%; }
 
-/*!*************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main/main.scss ***!
-  \*************************************************************************************************************/
+/*!**********************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./mainPage/src/main/main.scss ***!
+  \**********************************************************************************************************************/
 h2 {
   font-size: 36px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
@@ -380,9 +387,9 @@ h2 {
           align-content: center;
           height: 500px; }
 
-/*!*****************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/footer/footer.scss ***!
-  \*****************************************************************************************************************/
+/*!**************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./mainPage/src/footer/footer.scss ***!
+  \**************************************************************************************************************************/
 a {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   text-decoration: none; }

@@ -3,10 +3,14 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-    entry: './src/index.js',
+    entry: {
+        mainPage: './mainPage/src/index.js',
+        stockPage: './stock/src/index.js',
+    },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'main.js',
+        filename: '[name].bundle.js',
+        chunkFilename: '[name].styles.css',
         publicPath: '/',
     },
     mode: 'development',
@@ -44,11 +48,17 @@ module.exports = {
     },
     plugins: [
         new HtmlWebPackPlugin({
-            template: './src/index.html',
-            filename: './index.html'
+            template: './mainPage/src/index.html',
+            filename: './index.html',
+            chunks: ['mainPage'],
+        }),
+        new HtmlWebPackPlugin({
+            template: './stock/src/index.html',
+            filename: './stock.html',
+            chunks: ['stockPage'],
         }),
         new MiniCssExtractPlugin({
-            filename: 'styles.css'
+            filename: '[name].styles.css'
         }),
     ],
     devServer: {

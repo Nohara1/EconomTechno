@@ -64,6 +64,16 @@ a{
         }
     }
 }
+.header__basket{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    .basket__link{
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}
 .menu__submenu-first{
     background-color: $color-back;
     @include opacity();
