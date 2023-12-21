@@ -23,7 +23,7 @@ html{
             justify-content: center;
             align-items: center;
             background-color: white;
-            z-index: 9999;
+            z-index: 1;
         };
         main{
             @include flex();

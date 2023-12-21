@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function(){
                 customClass: {
                     confirmButton: 'modal__button'
                 }
-              })
+              });
         })
     })
 })
