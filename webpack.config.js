@@ -7,7 +7,8 @@ module.exports = {
         mainPage: './mainPage/src/index.js',
         stockPage: './stock/src/index.js',
         deliveryPage: './delivery/src/index.js',
-        aboutPage: './about/src/index.js'
+        aboutPage: './about/src/index.js',
+        contactPage: './contact/src/index.js',
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -68,6 +69,11 @@ module.exports = {
             template: './about/src/index.html',
             filename: './about.html',
             chunks: ['aboutPage'],
+        }),
+        new HtmlWebPackPlugin({
+            template: './contact/src/index.html',
+            filename: './contact.html',
+            chunks: ['contactPage'],
         }),
         
         new MiniCssExtractPlugin({

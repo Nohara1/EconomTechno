@@ -1,0 +1,44 @@
+$font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+@mixin flex(){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*{
+    font-family: $font;
+}
+
+.h1{
+    color: red;
+    font-size: 45px;
+}
+
+.main__container{
+    width: 100%;
+    height: 100%;
+    .contact__container{
+        @include flex();
+        width: 100%;
+        height: 780px;
+        padding: 120px 0px 0px 0px;
+        .contact__container-item{
+            text-align: center;
+            width: 1300px;
+            height: 100%;
+            .contact__description{
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                padding: 20px 10px;
+                .description__text{
+                    font-size: 20px;
+                    text-align: left;
+                    width: 50%;
+                    .text-item{
+                       padding: 20px 0px;
+                    }
+                }
+            }
+        }
+    }
+}
