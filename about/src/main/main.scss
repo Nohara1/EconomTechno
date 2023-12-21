@@ -1,0 +1,44 @@
+$font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+@mixin flex(){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__container{
+    width: 100%;
+    height: 100%;
+    .about__container{
+        @include flex();
+        padding: 120px 0px 0px 0px;
+        width: 100%;
+        height: 880px;
+        .about__container-item{
+            text-align: center;
+            width: 1300px;
+            height: 100%;
+            .company-desc__container{
+                width: 100%;
+                height: 45%;
+                .company-desc__row{
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    height: 100%;
+                    padding: 20px 10px ;
+                    .company-desc__text-box{
+                        font-size: 20px;
+                        font-family: $font;
+                        text-align: left;
+                        width: 50%;
+                        height: 100%;
+                    }
+                    .company-desc__img-box{
+                        width: 50%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

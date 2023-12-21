@@ -7,6 +7,7 @@ module.exports = {
         mainPage: './mainPage/src/index.js',
         stockPage: './stock/src/index.js',
         deliveryPage: './delivery/src/index.js',
+        aboutPage: './about/src/index.js'
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -63,6 +64,12 @@ module.exports = {
             filename: './delivery.html',
             chunks: ['deliveryPage'],
         }),
+        new HtmlWebPackPlugin({
+            template: './about/src/index.html',
+            filename: './about.html',
+            chunks: ['aboutPage'],
+        }),
+        
         new MiniCssExtractPlugin({
             filename: '[name].styles.css'
         }),
