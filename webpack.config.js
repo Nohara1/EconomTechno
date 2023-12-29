@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     entry: {
@@ -9,12 +10,12 @@ module.exports = {
         deliveryPage: './delivery/src/index.js',
         aboutPage: './about/src/index.js',
         contactPage: './contact/src/index.js',
+        catalogPage: './catalog/src/index.js',
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].bundle.js',
         chunkFilename: '[name].styles.css',
-        publicPath: '/',
     },
     mode: 'development',
     module: {
@@ -37,15 +38,8 @@ module.exports = {
                 ]
             },
             {
-                test: /\.svg$/,
-                use: {
-                    loader: 'file-loader',
-                    options: {
-                        name: '[name].[ext]',
-                        outputPath: 'img/',
-                        publicPath: '/img/'
-                    }
-                }
+                test: /\.(png|jpe?g|gif)$/i,
+                type: 'asset/resource',
             },
         ]
     },
@@ -75,10 +69,24 @@ module.exports = {
             filename: './contact.html',
             chunks: ['contactPage'],
         }),
+        new HtmlWebPackPlugin({
+            template: './catalog/src/index.html',
+            filename: './catalog.html',
+            chunks: ['catalogPage'],
+        }),
         
         new MiniCssExtractPlugin({
             filename: '[name].styles.css'
         }),
+
+        new CopyWebpackPlugin({
+            patterns: [
+              {
+                from: 'images/', 
+                to: 'images', 
+              },
+            ],
+          }),
     ],
     devServer: {
         compress: true,

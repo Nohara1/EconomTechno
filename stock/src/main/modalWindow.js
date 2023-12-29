@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function(){
         list.addEventListener('click',() => {
             Swal.fire({
                 width: 800,
-                background: '#FFFFF0',
+                background: '#ffffff',
                 color: '#CD5C5C',
                 title: stockData[index].name,
                 text: stockData[index].description,

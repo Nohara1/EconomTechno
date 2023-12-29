@@ -40,22 +40,22 @@ $font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Ar
                 }
             }
             .first{
-                background: url('./img/sale.png') 0px 0px no-repeat;
+                background: url('../../../images/salestock.png') 0px 0px no-repeat;
                 background-size: cover;
                 filter: brightness(90%);
             }
             .second{
-                background: url('./img/tovar.png') 0px 0px no-repeat;
+                background: url('../../../images/tovar.png') 0px 0px no-repeat;
                 background-size: cover;
                 filter: brightness(90%);
             }
             .three{
-                background: url('./img/clock.png') 0px 0px no-repeat;
+                background: url('../../../images/clockwatch.png') 0px 0px no-repeat;
                 background-size: cover;
                 filter: brightness(90%);
             }
             .four{
-                background: url('./img/coffee.png') 0px 0px no-repeat;
+                background: url('../../../images/coffee.png') 0px 0px no-repeat;
                 background-size: cover;
                 filter: brightness(90%);
             }

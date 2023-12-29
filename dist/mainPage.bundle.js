@@ -76,7 +76,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./img/logo.png */ \"./mainPage/src/footer/img/logo.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./img/clock.png */ \"./mainPage/src/footer/img/clock.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./img/mail.png */ \"./mainPage/src/footer/img/mail.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ./img/loco.png */ \"./mainPage/src/footer/img/loco.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ./img/instagram.png */ \"./mainPage/src/footer/img/instagram.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ./img/tiktok.png */ \"./mainPage/src/footer/img/tiktok.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ./img/vkontakte.png */ \"./mainPage/src/footer/img/vkontakte.png\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);\nvar ___HTML_LOADER_REPLACEMENT_2___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_2___);\nvar ___HTML_LOADER_REPLACEMENT_3___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_3___);\nvar ___HTML_LOADER_REPLACEMENT_4___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_4___);\nvar ___HTML_LOADER_REPLACEMENT_5___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_5___);\nvar ___HTML_LOADER_REPLACEMENT_6___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_6___);\nvar code = \"<div class=\\\"footer__container\\\">\\r\\n    <div class=\\\"footer__row\\\">\\r\\n        <div class=\\\"footer__col\\\">\\r\\n            <div class=\\\"footer__logo\\\">\\r\\n                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\" alt=\\\"logo\\\" style=\\\"width: 200px;\\\">\\r\\n            </div>\\r\\n        </div>\\r\\n        <div class=\\\"footer__col\\\">\\r\\n            <div class=\\\"firm-info\\\">\\r\\n                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_1___ + \"\\\" alt=\\\"clock\\\" style=\\\"width: 18px; height: 18px;\\\">\\r\\n                Пн-вс с 10:00 до 20:00\\r\\n            </div>\\r\\n            <div class=\\\"firm-info\\\">\\r\\n                <a data-copy=\\\"economtechno@mail.ru\\\">\\r\\n                    <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_2___ + \"\\\" alt=\\\"mail\\\" style=\\\"width: 18px; height: 18px;\\\">\\r\\n                    economtechno@mail.ru\\r\\n                </a>\\r\\n            </div>\\r\\n        </div>\\r\\n        <div class=\\\"footer__col\\\">\\r\\n            <div class=\\\"firm-location\\\">\\r\\n                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_3___ + \"\\\" alt=\\\"loco\\\" style=\\\"width: 30px; height: 30px;\\\">\\r\\n                <a href=https://yandex.by/maps/org/ekonomtekhno/108084915455/?ll=27.434875%2C53.914363&mode=search&sctx=ZAAAAAgBEAAaKAoSCXmu78NBjjtAES%2F6CtKM80pAEhIJldbfEoB%2F3j8RS5F8JZASxT8iBgABAgMEBSgKOABAnQFIAGoCdWGdAc3MTD2gAQCoAQC9AWj0GgTCAQb%2F2fPSkgPqAQDyAQD4AQCCAhbRjdC60L7QvdC%2B0LzRgtC10YXQvdC%2BigIAkgIAmgIMZGVza3RvcC1tYXBz&sll=27.434875%2C53.914363&sspn=0.059566%2C0.020573&text=эеономтехно&z=15>г.Минск ул. Кунцевщина, 35</a>\\r\\n            </div>\\r\\n        </div>\\r\\n        <div class=\\\"footer__col\\\">\\r\\n            <div class=\\\"firm-info\\\">\\r\\n                <div class=\\\"firm-masanger\\\">\\r\\n                    <a href=\\\"https://www.instagram.com/economtechno/\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_4___ + \"\\\" alt=\\\"instagram\\\">\\r\\n                    </a>\\r\\n                    <a href=\\\"https://www.tiktok.com/@economtechno\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_5___ + \"\\\" alt=\\\"tiktik\\\">\\r\\n                    </a>\\r\\n                    <a href=\\\"https://vk.com/economtechno\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_6___ + \"\\\" alt=\\\"vkontakte\\\">\\r\\n                    </a>\\r\\n                </div>\\r\\n                <div class=\\\"firm-telephone\\\">\\r\\n                    <a href=\\\"tel:+375296669453\\\">+375 29 666 94 53</a>\\r\\n                    <a href=\\\"tel:+375291200217\\\">+375 29 120 02 17</a>\\r\\n                </div>\\r\\n            </div>\\r\\n        </div>\\r\\n    </div>\\r\\n</div>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://economtechno/./mainPage/src/footer/index.html?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/logo.png */ \"./images/logo.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/clock.png */ \"./images/clock.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/mail.png */ \"./images/mail.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/loco.png */ \"./images/loco.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/instagram.png */ \"./images/instagram.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/tiktok.png */ \"./images/tiktok.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/vkontakte.png */ \"./images/vkontakte.png\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);\nvar ___HTML_LOADER_REPLACEMENT_2___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_2___);\nvar ___HTML_LOADER_REPLACEMENT_3___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_3___);\nvar ___HTML_LOADER_REPLACEMENT_4___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_4___);\nvar ___HTML_LOADER_REPLACEMENT_5___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_5___);\nvar ___HTML_LOADER_REPLACEMENT_6___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_6___);\nvar code = \"<div class=\\\"footer__container\\\">\\r\\n    <div class=\\\"footer__row\\\">\\r\\n        <div class=\\\"footer__col\\\">\\r\\n            <div class=\\\"footer__logo\\\">\\r\\n                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\" alt=\\\"logo\\\" style=\\\"width: 200px;\\\">\\r\\n            </div>\\r\\n        </div>\\r\\n        <div class=\\\"footer__col\\\">\\r\\n            <div class=\\\"firm-info\\\">\\r\\n                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_1___ + \"\\\" alt=\\\"clock\\\" style=\\\"width: 18px; height: 18px;\\\">\\r\\n                Пн-вс с 10:00 до 20:00\\r\\n            </div>\\r\\n            <div class=\\\"firm-info\\\">\\r\\n                <a data-copy=\\\"economtechno@mail.ru\\\">\\r\\n                    <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_2___ + \"\\\" alt=\\\"mail\\\" style=\\\"width: 18px; height: 18px;\\\">\\r\\n                    economtechno@mail.ru\\r\\n                </a>\\r\\n            </div>\\r\\n        </div>\\r\\n        <div class=\\\"footer__col\\\">\\r\\n            <div class=\\\"firm-location\\\">\\r\\n                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_3___ + \"\\\" alt=\\\"loco\\\" style=\\\"width: 30px; height: 30px;\\\">\\r\\n                <a href=https://yandex.by/maps/org/ekonomtekhno/108084915455/?ll=27.434875%2C53.914363&mode=search&sctx=ZAAAAAgBEAAaKAoSCXmu78NBjjtAES%2F6CtKM80pAEhIJldbfEoB%2F3j8RS5F8JZASxT8iBgABAgMEBSgKOABAnQFIAGoCdWGdAc3MTD2gAQCoAQC9AWj0GgTCAQb%2F2fPSkgPqAQDyAQD4AQCCAhbRjdC60L7QvdC%2B0LzRgtC10YXQvdC%2BigIAkgIAmgIMZGVza3RvcC1tYXBz&sll=27.434875%2C53.914363&sspn=0.059566%2C0.020573&text=эеономтехно&z=15>г.Минск ул. Кунцевщина, 35</a>\\r\\n            </div>\\r\\n        </div>\\r\\n        <div class=\\\"footer__col\\\">\\r\\n            <div class=\\\"firm-info\\\">\\r\\n                <div class=\\\"firm-masanger\\\">\\r\\n                    <a href=\\\"https://www.instagram.com/economtechno/\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_4___ + \"\\\" alt=\\\"instagram\\\">\\r\\n                    </a>\\r\\n                    <a href=\\\"https://www.tiktok.com/@economtechno\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_5___ + \"\\\" alt=\\\"tiktik\\\">\\r\\n                    </a>\\r\\n                    <a href=\\\"https://vk.com/economtechno\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_6___ + \"\\\" alt=\\\"vkontakte\\\">\\r\\n                    </a>\\r\\n                </div>\\r\\n                <div class=\\\"firm-telephone\\\">\\r\\n                    <a href=\\\"tel:+375296669453\\\">+375 29 666 94 53</a>\\r\\n                    <a href=\\\"tel:+375291200217\\\">+375 29 120 02 17</a>\\r\\n                </div>\\r\\n            </div>\\r\\n        </div>\\r\\n    </div>\\r\\n</div>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://economtechno/./mainPage/src/footer/index.html?");
 
 /***/ }),
 
@@ -86,7 +86,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./img/logo.png */ \"./mainPage/src/header/img/logo.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./img/like.png */ \"./mainPage/src/header/img/like.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./img/busket.png */ \"./mainPage/src/header/img/busket.png\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);\nvar ___HTML_LOADER_REPLACEMENT_2___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_2___);\nvar code = \"<div class=\\\"header__container\\\">\\r\\n    <a class=\\\"header__logo\\\">\\r\\n        <img src=\\\" \" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\" alt=\\\"logo\\\" href=\\\"index.html\\\">\\r\\n    </a>\\r\\n    <div class=\\\"header__row\\\">\\r\\n        <div class=\\\"header__burger\\\">\\r\\n            <nav class=\\\"header__nav\\\">\\r\\n                <ul class=\\\"header__menu\\\">\\r\\n                    <li class=\\\"menu__item first\\\">\\r\\n                        <a href=\\\"#\\\" class=\\\"menu__link\\\">\\r\\n                            Католог\\r\\n                        </a>\\r\\n                        <ul class=\\\"menu__submenu-first\\\">\\r\\n                            <li class=\\\"menu__item active\\\">\\r\\n                                <a class=\\\"menu__link\\\">\\r\\n                                <span>Техника для дома</span>\\r\\n                                <span class=\\\"menu__arr\\\">\\r\\n                                    <svg width=\\\"15\\\" height=\\\"15\\\" viewBox=\\\"0 0 20 20\\\" >\\r\\n                                        <path fill=\\\"none\\\" stroke=\\\"black\\\" stroke-width=\\\"2\\\" d=\\\"M8,5 L15,10 L8,15\\\"/> \\r\\n                                      </svg>\\r\\n                                </span>\\r\\n                                </a>\\r\\n                                <ul class=\\\"menu__submenu-second\\\">\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Стиральные и сушильные машины\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Техника для уборки\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Уход за одеждой\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Климатическая техника\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                </ul>\\r\\n                            </li>\\r\\n                            <li class=\\\"menu__item active\\\">\\r\\n                                <a class=\\\"menu__link\\\">\\r\\n                                    <span>Электроинструмент</span>\\r\\n                                    <span class=\\\"menu__arr\\\">\\r\\n                                        <svg width=\\\"15\\\" height=\\\"15\\\" viewBox=\\\"0 0 20 20\\\" >\\r\\n                                            <path fill=\\\"none\\\" stroke=\\\"black\\\" stroke-width=\\\"2\\\" d=\\\"M8,5 L15,10 L8,15\\\"/> \\r\\n                                          </svg>\\r\\n                                    </span>\\r\\n                                </a>\\r\\n                                <ul class=\\\"menu__submenu-second lvl2\\\">\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Инструмент и оборудование\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Освещение\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Садовая техника\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                </ul>\\r\\n                            </li>\\r\\n                            <li class=\\\"menu__item active\\\">\\r\\n                                <a class=\\\"menu__link\\\">\\r\\n                                    <span>Электроника</span>\\r\\n                                    <span class=\\\"menu__arr\\\">\\r\\n                                        <svg width=\\\"15\\\" height=\\\"15\\\" viewBox=\\\"0 0 20 20\\\" >\\r\\n                                            <path fill=\\\"none\\\" stroke=\\\"black\\\" stroke-width=\\\"2\\\" d=\\\"M8,5 L15,10 L8,15\\\"/> \\r\\n                                          </svg>\\r\\n                                    </span>\\r\\n                                </a>\\r\\n                                <ul class=\\\"menu__submenu-second lvl3\\\">\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Смартфоны и телефоны\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Компьютерные комплектующие\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Акустика\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Телевизоры\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Умный дом\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                </ul>\\r\\n                            </li>\\r\\n                            <li class=\\\"menu__item active\\\">\\r\\n                                <a class=\\\"menu__link\\\">\\r\\n                                    <span>Техника для кухни</span>\\r\\n                                    <span class=\\\"menu__arr\\\">\\r\\n                                        <svg width=\\\"15\\\" height=\\\"15\\\" viewBox=\\\"0 0 20 20\\\" >\\r\\n                                            <path fill=\\\"none\\\" stroke=\\\"black\\\" stroke-width=\\\"2\\\" d=\\\"M8,5 L15,10 L8,15\\\"/> \\r\\n                                          </svg>\\r\\n                                    </span>\\r\\n                                </a>\\r\\n                                <ul class=\\\"menu__submenu-second lvl4\\\">\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Холодильники\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Стиральные машини\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Подготовка продуктов\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Плиты,печи,духовки\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Вытяжки\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Приготовление пищи\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                </ul>\\r\\n                            </li>\\r\\n                            <li class=\\\"menu__item active\\\">\\r\\n                                <a class=\\\"menu__link\\\">\\r\\n                                    <span>Автотовары</span>\\r\\n                                    <span class=\\\"menu__arr\\\">\\r\\n                                        <svg width=\\\"15\\\" height=\\\"15\\\" viewBox=\\\"0 0 20 20\\\" >\\r\\n                                            <path fill=\\\"none\\\" stroke=\\\"black\\\" stroke-width=\\\"2\\\" d=\\\"M8,5 L15,10 L8,15\\\"/> \\r\\n                                          </svg>\\r\\n                                    </span>\\r\\n                                </a>\\r\\n                                <ul class=\\\"menu__submenu-second lvl5\\\">\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Автоэлектроника\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Автозвук\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Автооборудование\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                </ul>\\r\\n                            </li>\\r\\n                        </ul>\\r\\n                    </li>\\r\\n                    <li class=\\\"menu__item\\\">\\r\\n                        <a href=\\\"stock.html\\\" class=\\\"menu__link\\\">\\r\\n                            Акции\\r\\n                        </a>\\r\\n                    </li>\\r\\n                    <li class=\\\"menu__item\\\">\\r\\n                        <a href=\\\"delivery.html\\\" class=\\\"menu__link\\\">\\r\\n                            Доставка\\r\\n                        </a>\\r\\n                    </li>\\r\\n                    <li class=\\\"menu__item\\\">\\r\\n                        <a href=\\\"about.html\\\" class=\\\"menu__link\\\">\\r\\n                            О нас\\r\\n                        </a>\\r\\n                    </li>\\r\\n                    <li class=\\\"menu__item last\\\">\\r\\n                        <a href=\\\"contact.html\\\" class=\\\"menu__link\\\">\\r\\n                            Контакты\\r\\n                        </a>\\r\\n                    </li>\\r\\n                </ul>\\r\\n            </nav>\\r\\n        </div>\\r\\n    </div>\\r\\n    <div class=\\\"header__basket\\\">\\r\\n        <a href=\\\"#\\\" class=\\\"basket__link\\\">\\r\\n            <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_1___ + \"\\\" alt=\\\"like\\\">\\r\\n        </a>\\r\\n        <a href=\\\"#\\\" class=\\\"basket__link\\\">\\r\\n            <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_2___ + \"\\\" alt=\\\"busket\\\">\\r\\n        </a>\\r\\n    </div>\\r\\n</div>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://economtechno/./mainPage/src/header/index.html?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/logo.png */ \"./images/logo.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/like.png */ \"./images/like.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/busket.png */ \"./images/busket.png\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);\nvar ___HTML_LOADER_REPLACEMENT_2___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_2___);\nvar code = \"<div class=\\\"header__container\\\">\\r\\n    <a class=\\\"header__logo\\\" href=\\\"index.html\\\">\\r\\n        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\" alt=\\\"logo\\\">\\r\\n    </a>\\r\\n    <div class=\\\"header__row\\\">\\r\\n        <div class=\\\"header__burger\\\">\\r\\n            <nav class=\\\"header__nav\\\">\\r\\n                <ul class=\\\"header__menu\\\">\\r\\n                    <li class=\\\"menu__item first\\\">\\r\\n                        <a href=\\\"#\\\" class=\\\"menu__link\\\">\\r\\n                            Католог\\r\\n                        </a>\\r\\n                        <ul class=\\\"menu__submenu-first\\\">\\r\\n                            <li class=\\\"menu__item active\\\">\\r\\n                                <a class=\\\"menu__link\\\" href=\\\"catalog.html\\\">\\r\\n                                <span>Техника для дома</span>\\r\\n                                <span class=\\\"menu__arr\\\">\\r\\n                                    <svg width=\\\"15\\\" height=\\\"15\\\" viewBox=\\\"0 0 20 20\\\" >\\r\\n                                        <path fill=\\\"none\\\" stroke=\\\"black\\\" stroke-width=\\\"2\\\" d=\\\"M8,5 L15,10 L8,15\\\"/> \\r\\n                                    </svg>\\r\\n                                </span>\\r\\n                                </a>\\r\\n                                <ul class=\\\"menu__submenu-second\\\">\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Стиральные и сушильные машины\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Техника для уборки\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Уход за одеждой\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Климатическая техника\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                </ul>\\r\\n                            </li>\\r\\n                            <li class=\\\"menu__item active\\\">\\r\\n                                <a class=\\\"menu__link\\\">\\r\\n                                    <span>Электроинструмент</span>\\r\\n                                    <span class=\\\"menu__arr\\\">\\r\\n                                        <svg width=\\\"15\\\" height=\\\"15\\\" viewBox=\\\"0 0 20 20\\\" >\\r\\n                                            <path fill=\\\"none\\\" stroke=\\\"black\\\" stroke-width=\\\"2\\\" d=\\\"M8,5 L15,10 L8,15\\\"/> \\r\\n                                          </svg>\\r\\n                                    </span>\\r\\n                                </a>\\r\\n                                <ul class=\\\"menu__submenu-second lvl2\\\">\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Инструмент и оборудование\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Освещение\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Садовая техника\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                </ul>\\r\\n                            </li>\\r\\n                            <li class=\\\"menu__item active\\\">\\r\\n                                <a class=\\\"menu__link\\\">\\r\\n                                    <span>Электроника</span>\\r\\n                                    <span class=\\\"menu__arr\\\">\\r\\n                                        <svg width=\\\"15\\\" height=\\\"15\\\" viewBox=\\\"0 0 20 20\\\" >\\r\\n                                            <path fill=\\\"none\\\" stroke=\\\"black\\\" stroke-width=\\\"2\\\" d=\\\"M8,5 L15,10 L8,15\\\"/> \\r\\n                                          </svg>\\r\\n                                    </span>\\r\\n                                </a>\\r\\n                                <ul class=\\\"menu__submenu-second lvl3\\\">\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Смартфоны и телефоны\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Компьютерные комплектующие\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Акустика\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Телевизоры\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Умный дом\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                </ul>\\r\\n                            </li>\\r\\n                            <li class=\\\"menu__item active\\\">\\r\\n                                <a class=\\\"menu__link\\\">\\r\\n                                    <span>Техника для кухни</span>\\r\\n                                    <span class=\\\"menu__arr\\\">\\r\\n                                        <svg width=\\\"15\\\" height=\\\"15\\\" viewBox=\\\"0 0 20 20\\\" >\\r\\n                                            <path fill=\\\"none\\\" stroke=\\\"black\\\" stroke-width=\\\"2\\\" d=\\\"M8,5 L15,10 L8,15\\\"/> \\r\\n                                          </svg>\\r\\n                                    </span>\\r\\n                                </a>\\r\\n                                <ul class=\\\"menu__submenu-second lvl4\\\">\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Холодильники\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Стиральные машини\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Подготовка продуктов\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Плиты,печи,духовки\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Вытяжки\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Приготовление пищи\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                </ul>\\r\\n                            </li>\\r\\n                            <li class=\\\"menu__item active\\\">\\r\\n                                <a class=\\\"menu__link\\\">\\r\\n                                    <span>Автотовары</span>\\r\\n                                    <span class=\\\"menu__arr\\\">\\r\\n                                        <svg width=\\\"15\\\" height=\\\"15\\\" viewBox=\\\"0 0 20 20\\\" >\\r\\n                                            <path fill=\\\"none\\\" stroke=\\\"black\\\" stroke-width=\\\"2\\\" d=\\\"M8,5 L15,10 L8,15\\\"/> \\r\\n                                          </svg>\\r\\n                                    </span>\\r\\n                                </a>\\r\\n                                <ul class=\\\"menu__submenu-second lvl5\\\">\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Автоэлектроника\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Автозвук\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                    <li class=\\\"menu__item\\\">\\r\\n                                        <a class=\\\"menu__link\\\">\\r\\n                                            Автооборудование\\r\\n                                        </a>\\r\\n                                    </li>\\r\\n                                </ul>\\r\\n                            </li>\\r\\n                        </ul>\\r\\n                    </li>\\r\\n                    <li class=\\\"menu__item\\\">\\r\\n                        <a href=\\\"stock.html\\\" class=\\\"menu__link\\\">\\r\\n                            Акции\\r\\n                        </a>\\r\\n                    </li>\\r\\n                    <li class=\\\"menu__item\\\">\\r\\n                        <a href=\\\"delivery.html\\\" class=\\\"menu__link\\\">\\r\\n                            Доставка\\r\\n                        </a>\\r\\n                    </li>\\r\\n                    <li class=\\\"menu__item\\\">\\r\\n                        <a href=\\\"about.html\\\" class=\\\"menu__link\\\">\\r\\n                            О нас\\r\\n                        </a>\\r\\n                    </li>\\r\\n                    <li class=\\\"menu__item last\\\">\\r\\n                        <a href=\\\"contact.html\\\" class=\\\"menu__link\\\">\\r\\n                            Контакты\\r\\n                        </a>\\r\\n                    </li>\\r\\n                </ul>\\r\\n            </nav>\\r\\n        </div>\\r\\n    </div>\\r\\n    <div class=\\\"header__basket\\\">\\r\\n        <a href=\\\"#\\\" class=\\\"basket__link\\\">\\r\\n            <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_1___ + \"\\\" alt=\\\"like\\\">\\r\\n        </a>\\r\\n        <a href=\\\"#\\\" class=\\\"basket__link\\\">\\r\\n            <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_2___ + \"\\\" alt=\\\"busket\\\">\\r\\n        </a>\\r\\n    </div>\\r\\n</div>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://economtechno/./mainPage/src/header/index.html?");
 
 /***/ }),
 
@@ -96,7 +96,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./img/fon.png */ \"./mainPage/src/main/img/fon.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./img/lobzik.png */ \"./mainPage/src/main/img/lobzik.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./img/multivarka.png */ \"./mainPage/src/main/img/multivarka.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ./img/blender.png */ \"./mainPage/src/main/img/blender.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ./img/01.png */ \"./mainPage/src/main/img/01.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ./img/INVERTOR.png */ \"./mainPage/src/main/img/INVERTOR.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ./img/miaso.png */ \"./mainPage/src/main/img/miaso.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ./img/YSHM.png */ \"./mainPage/src/main/img/YSHM.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(/*! ./img/AUH-022.png */ \"./mainPage/src/main/img/AUH-022.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_9___ = new URL(/* asset import */ __webpack_require__(/*! ./img/chainik.png */ \"./mainPage/src/main/img/chainik.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_10___ = new URL(/* asset import */ __webpack_require__(/*! ./img/technika.png */ \"./mainPage/src/main/img/technika.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_11___ = new URL(/* asset import */ __webpack_require__(/*! ./img/instryment.png */ \"./mainPage/src/main/img/instryment.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_12___ = new URL(/* asset import */ __webpack_require__(/*! ./img/electronika.png */ \"./mainPage/src/main/img/electronika.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_13___ = new URL(/* asset import */ __webpack_require__(/*! ./img/kychnia.png */ \"./mainPage/src/main/img/kychnia.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_14___ = new URL(/* asset import */ __webpack_require__(/*! ./img/avto.png */ \"./mainPage/src/main/img/avto.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_15___ = new URL(/* asset import */ __webpack_require__(/*! ./img/price.png */ \"./mainPage/src/main/img/price.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_16___ = new URL(/* asset import */ __webpack_require__(/*! ./img/star.png */ \"./mainPage/src/main/img/star.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_17___ = new URL(/* asset import */ __webpack_require__(/*! ./img/tool_113298.png */ \"./mainPage/src/main/img/tool_113298.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_18___ = new URL(/* asset import */ __webpack_require__(/*! ./img/setting.png */ \"./mainPage/src/main/img/setting.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_19___ = new URL(/* asset import */ __webpack_require__(/*! ./img/sale.png */ \"./mainPage/src/main/img/sale.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_20___ = new URL(/* asset import */ __webpack_require__(/*! ./img/certified.png */ \"./mainPage/src/main/img/certified.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_21___ = new URL(/* asset import */ __webpack_require__(/*! ./img/content.png */ \"./mainPage/src/main/img/content.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_22___ = new URL(/* asset import */ __webpack_require__(/*! ./img/protect.png */ \"./mainPage/src/main/img/protect.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_23___ = new URL(/* asset import */ __webpack_require__(/*! ./img/hammer.png */ \"./mainPage/src/main/img/hammer.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_24___ = new URL(/* asset import */ __webpack_require__(/*! ./img/wortex.png */ \"./mainPage/src/main/img/wortex.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_25___ = new URL(/* asset import */ __webpack_require__(/*! ./img/bosch.png */ \"./mainPage/src/main/img/bosch.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_26___ = new URL(/* asset import */ __webpack_require__(/*! ./img/Scarlett.png */ \"./mainPage/src/main/img/Scarlett.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_27___ = new URL(/* asset import */ __webpack_require__(/*! ./img/moulinex.png */ \"./mainPage/src/main/img/moulinex.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_28___ = new URL(/* asset import */ __webpack_require__(/*! ./img/braun.png */ \"./mainPage/src/main/img/braun.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_29___ = new URL(/* asset import */ __webpack_require__(/*! ./img/einhell.png */ \"./mainPage/src/main/img/einhell.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_30___ = new URL(/* asset import */ __webpack_require__(/*! ./img/maunfeld.png */ \"./mainPage/src/main/img/maunfeld.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_31___ = new URL(/* asset import */ __webpack_require__(/*! ./img/photo1.png */ \"./mainPage/src/main/img/photo1.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_32___ = new URL(/* asset import */ __webpack_require__(/*! ./img/photo2.png */ \"./mainPage/src/main/img/photo2.png\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);\nvar ___HTML_LOADER_REPLACEMENT_2___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_2___);\nvar ___HTML_LOADER_REPLACEMENT_3___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_3___);\nvar ___HTML_LOADER_REPLACEMENT_4___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_4___);\nvar ___HTML_LOADER_REPLACEMENT_5___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_5___);\nvar ___HTML_LOADER_REPLACEMENT_6___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_6___);\nvar ___HTML_LOADER_REPLACEMENT_7___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_7___);\nvar ___HTML_LOADER_REPLACEMENT_8___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_8___);\nvar ___HTML_LOADER_REPLACEMENT_9___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_9___);\nvar ___HTML_LOADER_REPLACEMENT_10___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_10___);\nvar ___HTML_LOADER_REPLACEMENT_11___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_11___);\nvar ___HTML_LOADER_REPLACEMENT_12___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_12___);\nvar ___HTML_LOADER_REPLACEMENT_13___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_13___);\nvar ___HTML_LOADER_REPLACEMENT_14___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_14___);\nvar ___HTML_LOADER_REPLACEMENT_15___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_15___);\nvar ___HTML_LOADER_REPLACEMENT_16___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_16___);\nvar ___HTML_LOADER_REPLACEMENT_17___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_17___);\nvar ___HTML_LOADER_REPLACEMENT_18___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_18___);\nvar ___HTML_LOADER_REPLACEMENT_19___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_19___);\nvar ___HTML_LOADER_REPLACEMENT_20___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_20___);\nvar ___HTML_LOADER_REPLACEMENT_21___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_21___);\nvar ___HTML_LOADER_REPLACEMENT_22___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_22___);\nvar ___HTML_LOADER_REPLACEMENT_23___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_23___);\nvar ___HTML_LOADER_REPLACEMENT_24___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_24___);\nvar ___HTML_LOADER_REPLACEMENT_25___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_25___);\nvar ___HTML_LOADER_REPLACEMENT_26___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_26___);\nvar ___HTML_LOADER_REPLACEMENT_27___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_27___);\nvar ___HTML_LOADER_REPLACEMENT_28___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_28___);\nvar ___HTML_LOADER_REPLACEMENT_29___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_29___);\nvar ___HTML_LOADER_REPLACEMENT_30___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_30___);\nvar ___HTML_LOADER_REPLACEMENT_31___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_31___);\nvar ___HTML_LOADER_REPLACEMENT_32___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_32___);\nvar code = \"<div class=\\\"main__container\\\">\\r\\n    <div class=\\\"hero\\\">\\r\\n        <div class=\\\"hero__bg\\\">\\r\\n            <picture>\\r\\n                <source srcset=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\">\\r\\n                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\" alt=\\\"\\\">\\r\\n            </picture>\\r\\n            <div class=\\\"hero__container\\\">\\r\\n                <div class=\\\"hero__textbox\\\">\\r\\n                    <h1 class=\\\"h1\\\">Магазин <span style=\\\"color: red;\\\">уцененных</span> товаров в Минске</h1>\\r\\n                    <p><span style=\\\"color: red;\\\">Уцененные товары</span> – отличный способ <span style=\\\"color: red;\\\">экономии</span>. В этой категории можно найти товары с недостатками, которые <span style=\\\"color: red;\\\">не важны</span> владельцу.</p>\\r\\n                </div>\\r\\n            </div>\\r\\n        </div> \\r\\n    </div>\\r\\n    <div class=\\\"popular\\\">\\r\\n        <div class=\\\"popular__textbox\\\">\\r\\n            <h2 class=\\\"h2\\\"><span style=\\\"color: red;\\\">Популярные</span> товары</h2>\\r\\n        </div>\\r\\n        <div class=\\\"popular__slidercards\\\">\\r\\n            <div class=\\\"swiper-container\\\">\\r\\n                <div class=\\\"swiper-wrapper\\\">\\r\\n                    <div class=\\\"swiper-slide\\\">\\r\\n                        <div class=\\\"slide\\\">\\r\\n                           <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_1___ + \"\\\" alt=\\\"lobzik\\\" class=\\\"slide-photo\\\">\\r\\n                        </div>\\r\\n                        <div class=\\\"slide\\\">\\r\\n                            <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_2___ + \"\\\" alt=\\\"multivarka\\\" class=\\\"slide-photo\\\">\\r\\n                        </div>\\r\\n                        <div class=\\\"slide\\\">\\r\\n                            <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_3___ + \"\\\" alt=\\\"multivarka\\\" class=\\\"slide-photo\\\">\\r\\n                        </div>\\r\\n                    </div>\\r\\n                    <div class=\\\"swiper-slide\\\">\\r\\n                        <div class=\\\"slide\\\">\\r\\n                            <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_4___ + \"\\\" alt=\\\"shyrik\\\" class=\\\"slide-photo\\\">\\r\\n                        </div>\\r\\n                        <div class=\\\"slide\\\">\\r\\n                            <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_5___ + \"\\\" alt=\\\"invertor\\\" class=\\\"slide-photo\\\">\\r\\n                        </div>\\r\\n                        <div class=\\\"slide\\\">\\r\\n                            <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_6___ + \"\\\" alt=\\\"miaso\\\" class=\\\"slide-photo\\\">\\r\\n                        </div>\\r\\n                    </div>\\r\\n                    <div class=\\\"swiper-slide\\\">\\r\\n                        <div class=\\\"slide\\\">\\r\\n                                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_7___ + \"\\\" alt=\\\"yshm\\\" class=\\\"slide-photo\\\" >\\r\\n                        </div>\\r\\n                        <div class=\\\"slide\\\">\\r\\n                            <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_8___ + \"\\\" alt=\\\"yvlaznitel\\\" class=\\\"slide-photo\\\">\\r\\n                        </div>\\r\\n                        <div class=\\\"slide\\\">\\r\\n                            <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_9___ + \"\\\" alt=\\\"chainik\\\" class=\\\"slide-photo\\\">\\r\\n                        </div>\\r\\n                    </div>\\r\\n                </div>\\r\\n            </div>\\r\\n            </div>\\r\\n    </div>\\r\\n    <div class=\\\"catalog-cards\\\">\\r\\n        <div class=\\\"catalog-cards__container\\\">\\r\\n            <div class=\\\"container-row\\\">\\r\\n                <div class=\\\"catalog-cards__card\\\">\\r\\n                    <div class=\\\"card-info\\\">\\r\\n                        <h3 class=\\\"h3\\\">Техника для дома</h3>\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_10___ + \"\\\" alt=\\\"technika\\\" class=\\\"card-photo\\\">\\r\\n                        <button class=\\\"card-button\\\" onclick=\\\"window.location.href = '#'\\\">\\r\\n                            Каталог\\r\\n                        </button> \\r\\n                    </div>\\r\\n                </div>\\r\\n                <div class=\\\"catalog-cards__card\\\">\\r\\n                    <div class=\\\"card-info\\\">\\r\\n                        <h3 class=\\\"h3\\\">Электроинструмент</h3>\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_11___ + \"\\\" alt=\\\"instryment\\\" class=\\\"card-photo\\\" style=\\\"height: 230px;\\\">\\r\\n                        <button class=\\\"card-button\\\" onclick=\\\"window.location.href = '#'\\\">\\r\\n                            Каталог\\r\\n                        </button> \\r\\n                    </div>\\r\\n                </div>\\r\\n                <div class=\\\"catalog-cards__card\\\">\\r\\n                    <div class=\\\"card-info\\\">\\r\\n                        <h3 class=\\\"h3\\\">Электроника</h3>\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_12___ + \"\\\" alt=\\\"electronika\\\" class=\\\"card-photo\\\" >\\r\\n                        <button class=\\\"card-button\\\" onclick=\\\"window.location.href = '#'\\\">\\r\\n                            Каталог\\r\\n                        </button> \\r\\n                    </div>\\r\\n                </div>\\r\\n            </div>\\r\\n            <div class=\\\"container-row\\\">\\r\\n                <div class=\\\"catalog-cards__card\\\">\\r\\n                    <div class=\\\"card-info\\\">\\r\\n                        <h3 class=\\\"h3\\\">Техника для кухни</h3>\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_13___ + \"\\\" alt=\\\"kychnia\\\" class=\\\"card-photo\\\" style=\\\"height: 230px;\\\">\\r\\n                        <button class=\\\"card-button\\\" onclick=\\\"window.location.href = '#'\\\">\\r\\n                            Каталог\\r\\n                        </button>\\r\\n                    </div>\\r\\n                </div>\\r\\n                <div class=\\\"catalog-cards__card\\\">\\r\\n                    <div class=\\\"card-info\\\">\\r\\n                        <h3 class=\\\"h3\\\">Автотовары</h3>\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_14___ + \"\\\" alt=\\\"avto\\\" class=\\\"card-photo\\\" style=\\\"height: 230px;\\\">\\r\\n                        <button class=\\\"card-button\\\" onclick=\\\"window.location.href = '#'\\\">\\r\\n                            Каталог\\r\\n                        </button>\\r\\n                    </div>\\r\\n                </div>\\r\\n            </div>\\r\\n        </div>\\r\\n    </div>\\r\\n    <div class=\\\"advantages\\\">\\r\\n        <div class=\\\"advantages__container\\\">\\r\\n            <h2 class=\\\"h2\\\">Премущества <span style=\\\"color: red;\\\">ЭкономТехно</span></h2>\\r\\n            <div class=\\\"advantages__list\\\">\\r\\n                <div class=\\\"advantages-card\\\">\\r\\n                    <div class=\\\"advantage-card__img\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_15___ + \"\\\" alt=\\\"price\\\" style=\\\"width: 150px; height: 150px;\\\">\\r\\n                    </div>\\r\\n                    <div class=\\\"advantage-card__text\\\">\\r\\n                        <p>Низкие цены</p>\\r\\n                    </div>\\r\\n                </div>\\r\\n                <div class=\\\"advantages-card\\\">\\r\\n                    <div class=\\\"advantage-card__img\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_16___ + \"\\\" alt=\\\"star\\\" style=\\\"width: 150px; height: 150px;\\\">\\r\\n                    </div>\\r\\n                    <div class=\\\"advantage-card__text\\\">\\r\\n                        <p>Качество</p>\\r\\n                    </div>\\r\\n                </div>\\r\\n                <div class=\\\"advantages-card\\\">\\r\\n                    <div class=\\\"advantage-card__img\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_17___ + \"\\\" alt=\\\"tool\\\" style=\\\"width: 150px; height: 150px;\\\">\\r\\n                    </div>\\r\\n                    <div class=\\\"advantage-card__text\\\">\\r\\n                        <p>Широкий ассортимент</p>\\r\\n                    </div>\\r\\n                </div>\\r\\n                <div class=\\\"advantages-card\\\">\\r\\n                    <div class=\\\"advantage-card__img\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_18___ + \"\\\" alt=\\\"setting\\\" style=\\\"width: 150px; height: 150px;\\\">\\r\\n                    </div>\\r\\n                    <div class=\\\"advantage-card__text\\\">\\r\\n                        <p>Опыт</p>\\r\\n                    </div>\\r\\n                </div>\\r\\n                <div class=\\\"advantages-card\\\">\\r\\n                    <div class=\\\"advantage-card__img\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_19___ + \"\\\" alt=\\\"sale\\\" style=\\\"width: 150px; height: 150px;\\\">\\r\\n                    </div>\\r\\n                    <div class=\\\"advantage-card__text\\\">\\r\\n                        <p>Постоянные скидки</p>\\r\\n                    </div>\\r\\n                </div>\\r\\n                <div class=\\\"advantages-card\\\">\\r\\n                    <div class=\\\"advantage-card__img\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_20___ + \"\\\" alt=\\\"certified\\\" style=\\\"width: 150px; height: 150px;\\\">\\r\\n                    </div>\\r\\n                    <div class=\\\"advantage-card__text\\\">\\r\\n                        <p>Большая гарантия</p>\\r\\n                    </div>\\r\\n                </div>\\r\\n                <div class=\\\"advantages-card\\\">\\r\\n                    <div class=\\\"advantage-card__img\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_21___ + \"\\\" alt=\\\"content\\\" style=\\\"width: 150px; height: 150px;\\\">\\r\\n                    </div>\\r\\n                    <div class=\\\"advantage-card__text\\\">\\r\\n                        <p>Гибкие условия покупки</p>\\r\\n                    </div>\\r\\n                </div>\\r\\n                <div class=\\\"advantages-card\\\">\\r\\n                    <div class=\\\"advantage-card__img\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_22___ + \"\\\" alt=\\\"protect\\\" style=\\\"width: 150px; height: 150px;\\\">\\r\\n                    </div>\\r\\n                    <div class=\\\"advantage-card__text\\\">\\r\\n                        <p>Надежность</p>\\r\\n                    </div>\\r\\n                </div>\\r\\n            </div>\\r\\n        </div>\\r\\n    </div>\\r\\n    <div class=\\\"producers\\\">\\r\\n        <div class=\\\"producers__container\\\">\\r\\n            <h2 class=\\\"h2\\\"><span style=\\\"color: red;\\\">Мы представляем</span> продукцию</h2>\\r\\n            <div class=\\\"producers__list\\\">\\r\\n                <div class=\\\"producers__item\\\">\\r\\n                    <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_23___ + \"\\\" alt=\\\"hammer\\\">\\r\\n                </div>\\r\\n                <div class=\\\"producers__item\\\">\\r\\n                    <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_24___ + \"\\\" alt=\\\"wortex\\\">\\r\\n                </div>\\r\\n                <div class=\\\"producers__item\\\">\\r\\n                    <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_25___ + \"\\\" alt=\\\"bosch\\\">\\r\\n                </div>\\r\\n                <div class=\\\"producers__item\\\">\\r\\n                    <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_26___ + \"\\\" alt=\\\"Scarlett\\\">\\r\\n                </div>\\r\\n                <div class=\\\"producers__item\\\">\\r\\n                    <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_27___ + \"\\\" alt=\\\"moulinex\\\">\\r\\n                </div>\\r\\n                <div class=\\\"producers__item\\\">\\r\\n                    <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_28___ + \"\\\" alt=\\\"braun\\\">\\r\\n                </div>\\r\\n                <div class=\\\"producers__item\\\">\\r\\n                    <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_29___ + \"\\\" alt=\\\"einhell\\\">\\r\\n                </div>\\r\\n                <div class=\\\"producers__item\\\">\\r\\n                    <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_30___ + \"\\\" alt=\\\"maunfeld\\\">\\r\\n                </div>\\r\\n            </div>\\r\\n        </div>\\r\\n    </div>\\r\\n    <div class=\\\"company-desk\\\">\\r\\n        <div class=\\\"company-desk__container\\\">\\r\\n            <h2 class=\\\"h2\\\">О <span style=\\\"color: red;\\\">компании</span></h2>\\r\\n            <div class=\\\"company-desk__row\\\">\\r\\n                <div class=\\\"company-desk__column\\\">\\r\\n                    <div class=\\\"company-desk__text-box\\\">\\r\\n                        <p>УМЕНИЕ НАЙТИ НУЖНУЮ ВЕЩЬ ПОДЕШЕВЛЕ — НАВЫК, КОТОРЫЙ ОТНОСИТСЯ К ФИНАНСОВОЙ ГРАМОТНОСТИ: \\r\\n                            МОЖНО ПОВЫШАТЬ КАЧЕСТВО ЖИЗНИ, НО НЕ ПЕРЕПЛАЧИВАТЬ ЗА ЭТО.</p>\\r\\n                        <p>\\r\\n                            Порою у человека есть необходимость в покупке какой либо бытовой техники,\\r\\n                             но цены на нее заоблачно высоки. А может, вы хотите приобрести новый девайс, \\r\\n                             но не знаете, будет ли полезен гаджет в эксплуатации дома? Ведь его можно купить \\r\\n                             недорого и не жалеть о покупке в случае ее не востребованности. \\r\\n                              таком случае вы точно наш клиент! Добро пожаловать! У нас такие цены,\\r\\n                               которые не ударят по вашему карману. Здесь можно приобрести бытовую технику,\\r\\n                                строительный и садовый инструмент по очень приемлемым ценам.\\r\\n                        </p>\\r\\n                    </div>\\r\\n                    <div class=\\\"company-desk__img-box\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_31___ + \"\\\" alt=\\\"econom\\\" style=\\\"width: 550px;\\\">\\r\\n                    </div>\\r\\n                </div>\\r\\n                <div class=\\\"company-desk__column\\\">\\r\\n                    <div class=\\\"company-desk__img-box\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_32___ + \"\\\" alt=\\\"econom\\\" style=\\\"width: 550px;\\\">\\r\\n                    </div>\\r\\n                    <div class=\\\"company-desk__text-box\\\">\\r\\n                        <p>ГАРАНТИЯ</p>\\r\\n                        <p>Магазин даёт собственную гарантию на товар 2 месяца!\\r\\n                            Гарантия распространяется только на техническую исправность! \\r\\n                            Гарантия не распространяется на дефекты, возникшие в результате \\r\\n                            механического повреждения, из-за несоблюдения правил перевозки, \\r\\n                            содержания и использования. Так же гарантия не распространяется \\r\\n                            на программное обеспечение, установленное пользователем.\\r\\n                            Во избежание конфликтных ситуаций работающий, но по вашим словам \\r\\n                            – “некорректно” товар направляется на диагностику.\\r\\n                            Так же в ассортименте присутствуют товары с полной или частичной \\r\\n                            гарантией поставщика или производителя.\\r\\n                        </p>\\r\\n                    </div>\\r\\n                </div>\\r\\n            </div>\\r\\n        </div>\\r\\n    </div>\\r\\n</div>\\r\\n\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/index.html?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/fon.png */ \"./images/fon.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/lobzik.png */ \"./images/lobzik.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/multivarka.png */ \"./images/multivarka.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/blender.png */ \"./images/blender.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/01.png */ \"./images/01.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/INVERTOR.png */ \"./images/INVERTOR.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/miaso.png */ \"./images/miaso.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/YSHM.png */ \"./images/YSHM.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/AUH-022.png */ \"./images/AUH-022.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_9___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/chainik.png */ \"./images/chainik.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_10___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/technika.png */ \"./images/technika.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_11___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/instryment.png */ \"./images/instryment.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_12___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/electronika.png */ \"./images/electronika.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_13___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/kychnia.png */ \"./images/kychnia.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_14___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/avto.png */ \"./images/avto.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_15___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/price.png */ \"./images/price.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_16___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/star.png */ \"./images/star.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_17___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/tool_113298.png */ \"./images/tool_113298.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_18___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/setting.png */ \"./images/setting.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_19___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/sale.png */ \"./images/sale.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_20___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/certified.png */ \"./images/certified.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_21___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/content.png */ \"./images/content.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_22___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/protect.png */ \"./images/protect.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_23___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/hammer.png */ \"./images/hammer.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_24___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/wortex.png */ \"./images/wortex.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_25___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/bosch.png */ \"./images/bosch.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_26___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/Scarlett.png */ \"./images/Scarlett.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_27___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/moulinex.png */ \"./images/moulinex.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_28___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/braun.png */ \"./images/braun.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_29___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/einhell.png */ \"./images/einhell.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_30___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/maunfeld.png */ \"./images/maunfeld.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_31___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/photo1.png */ \"./images/photo1.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_32___ = new URL(/* asset import */ __webpack_require__(/*! ../../../images/photo2.png */ \"./images/photo2.png\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);\nvar ___HTML_LOADER_REPLACEMENT_2___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_2___);\nvar ___HTML_LOADER_REPLACEMENT_3___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_3___);\nvar ___HTML_LOADER_REPLACEMENT_4___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_4___);\nvar ___HTML_LOADER_REPLACEMENT_5___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_5___);\nvar ___HTML_LOADER_REPLACEMENT_6___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_6___);\nvar ___HTML_LOADER_REPLACEMENT_7___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_7___);\nvar ___HTML_LOADER_REPLACEMENT_8___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_8___);\nvar ___HTML_LOADER_REPLACEMENT_9___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_9___);\nvar ___HTML_LOADER_REPLACEMENT_10___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_10___);\nvar ___HTML_LOADER_REPLACEMENT_11___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_11___);\nvar ___HTML_LOADER_REPLACEMENT_12___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_12___);\nvar ___HTML_LOADER_REPLACEMENT_13___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_13___);\nvar ___HTML_LOADER_REPLACEMENT_14___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_14___);\nvar ___HTML_LOADER_REPLACEMENT_15___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_15___);\nvar ___HTML_LOADER_REPLACEMENT_16___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_16___);\nvar ___HTML_LOADER_REPLACEMENT_17___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_17___);\nvar ___HTML_LOADER_REPLACEMENT_18___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_18___);\nvar ___HTML_LOADER_REPLACEMENT_19___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_19___);\nvar ___HTML_LOADER_REPLACEMENT_20___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_20___);\nvar ___HTML_LOADER_REPLACEMENT_21___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_21___);\nvar ___HTML_LOADER_REPLACEMENT_22___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_22___);\nvar ___HTML_LOADER_REPLACEMENT_23___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_23___);\nvar ___HTML_LOADER_REPLACEMENT_24___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_24___);\nvar ___HTML_LOADER_REPLACEMENT_25___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_25___);\nvar ___HTML_LOADER_REPLACEMENT_26___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_26___);\nvar ___HTML_LOADER_REPLACEMENT_27___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_27___);\nvar ___HTML_LOADER_REPLACEMENT_28___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_28___);\nvar ___HTML_LOADER_REPLACEMENT_29___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_29___);\nvar ___HTML_LOADER_REPLACEMENT_30___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_30___);\nvar ___HTML_LOADER_REPLACEMENT_31___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_31___);\nvar ___HTML_LOADER_REPLACEMENT_32___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_32___);\nvar code = \"<div class=\\\"main__container\\\">\\r\\n    <div class=\\\"hero\\\">\\r\\n        <div class=\\\"hero__bg\\\">\\r\\n            <picture>\\r\\n                <source srcset=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\">\\r\\n                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\" alt=\\\"\\\">\\r\\n            </picture>\\r\\n            <div class=\\\"hero__container\\\">\\r\\n                <div class=\\\"hero__textbox\\\">\\r\\n                    <h1 class=\\\"h1\\\">Магазин <span style=\\\"color: red;\\\">уцененных</span> товаров в Минске</h1>\\r\\n                    <p><span style=\\\"color: red;\\\">Уцененные товары</span> – отличный способ <span style=\\\"color: red;\\\">экономии</span>. В этой категории можно найти товары с недостатками, которые <span style=\\\"color: red;\\\">не важны</span> владельцу.</p>\\r\\n                </div>\\r\\n            </div>\\r\\n        </div> \\r\\n    </div>\\r\\n    <div class=\\\"popular\\\">\\r\\n        <div class=\\\"popular__textbox\\\">\\r\\n            <h2 class=\\\"h2\\\"><span style=\\\"color: red;\\\">Популярные</span> товары</h2>\\r\\n        </div>\\r\\n        <div class=\\\"popular__slidercards\\\">\\r\\n            <div class=\\\"swiper-container\\\">\\r\\n                <div class=\\\"swiper-wrapper\\\">\\r\\n                    <div class=\\\"swiper-slide\\\">\\r\\n                        <div class=\\\"slide\\\">\\r\\n                           <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_1___ + \"\\\" alt=\\\"lobzik\\\" class=\\\"slide-photo\\\">\\r\\n                        </div>\\r\\n                        <div class=\\\"slide\\\">\\r\\n                            <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_2___ + \"\\\" alt=\\\"multivarka\\\" class=\\\"slide-photo\\\">\\r\\n                        </div>\\r\\n                        <div class=\\\"slide\\\">\\r\\n                            <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_3___ + \"\\\" alt=\\\"multivarka\\\" class=\\\"slide-photo\\\">\\r\\n                        </div>\\r\\n                    </div>\\r\\n                    <div class=\\\"swiper-slide\\\">\\r\\n                        <div class=\\\"slide\\\">\\r\\n                            <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_4___ + \"\\\" alt=\\\"shyrik\\\" class=\\\"slide-photo\\\">\\r\\n                        </div>\\r\\n                        <div class=\\\"slide\\\">\\r\\n                            <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_5___ + \"\\\" alt=\\\"invertor\\\" class=\\\"slide-photo\\\">\\r\\n                        </div>\\r\\n                        <div class=\\\"slide\\\">\\r\\n                            <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_6___ + \"\\\" alt=\\\"miaso\\\" class=\\\"slide-photo\\\">\\r\\n                        </div>\\r\\n                    </div>\\r\\n                    <div class=\\\"swiper-slide\\\">\\r\\n                        <div class=\\\"slide\\\">\\r\\n                                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_7___ + \"\\\" alt=\\\"yshm\\\" class=\\\"slide-photo\\\" >\\r\\n                        </div>\\r\\n                        <div class=\\\"slide\\\">\\r\\n                            <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_8___ + \"\\\" alt=\\\"yvlaznitel\\\" class=\\\"slide-photo\\\">\\r\\n                        </div>\\r\\n                        <div class=\\\"slide\\\">\\r\\n                            <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_9___ + \"\\\" alt=\\\"chainik\\\" class=\\\"slide-photo\\\">\\r\\n                        </div>\\r\\n                    </div>\\r\\n                </div>\\r\\n            </div>\\r\\n            </div>\\r\\n    </div>\\r\\n    <div class=\\\"catalog-cards\\\">\\r\\n        <div class=\\\"catalog-cards__container\\\">\\r\\n            <div class=\\\"container-row\\\">\\r\\n                <div class=\\\"catalog-cards__card\\\">\\r\\n                    <div class=\\\"card-info\\\">\\r\\n                        <h3 class=\\\"h3\\\">Техника для дома</h3>\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_10___ + \"\\\" alt=\\\"technika\\\" class=\\\"card-photo\\\">\\r\\n                        <button class=\\\"card-button\\\" onclick=\\\"window.location.href = '#'\\\">\\r\\n                            Каталог\\r\\n                        </button> \\r\\n                    </div>\\r\\n                </div>\\r\\n                <div class=\\\"catalog-cards__card\\\">\\r\\n                    <div class=\\\"card-info\\\">\\r\\n                        <h3 class=\\\"h3\\\">Электроинструмент</h3>\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_11___ + \"\\\" alt=\\\"instryment\\\" class=\\\"card-photo\\\" style=\\\"height: 230px;\\\">\\r\\n                        <button class=\\\"card-button\\\" onclick=\\\"window.location.href = '#'\\\">\\r\\n                            Каталог\\r\\n                        </button> \\r\\n                    </div>\\r\\n                </div>\\r\\n                <div class=\\\"catalog-cards__card\\\">\\r\\n                    <div class=\\\"card-info\\\">\\r\\n                        <h3 class=\\\"h3\\\">Электроника</h3>\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_12___ + \"\\\" alt=\\\"electronika\\\" class=\\\"card-photo\\\" >\\r\\n                        <button class=\\\"card-button\\\" onclick=\\\"window.location.href = '#'\\\">\\r\\n                            Каталог\\r\\n                        </button> \\r\\n                    </div>\\r\\n                </div>\\r\\n            </div>\\r\\n            <div class=\\\"container-row\\\">\\r\\n                <div class=\\\"catalog-cards__card\\\">\\r\\n                    <div class=\\\"card-info\\\">\\r\\n                        <h3 class=\\\"h3\\\">Техника для кухни</h3>\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_13___ + \"\\\" alt=\\\"kychnia\\\" class=\\\"card-photo\\\" style=\\\"height: 230px;\\\">\\r\\n                        <button class=\\\"card-button\\\" onclick=\\\"window.location.href = '#'\\\">\\r\\n                            Каталог\\r\\n                        </button>\\r\\n                    </div>\\r\\n                </div>\\r\\n                <div class=\\\"catalog-cards__card\\\">\\r\\n                    <div class=\\\"card-info\\\">\\r\\n                        <h3 class=\\\"h3\\\">Автотовары</h3>\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_14___ + \"\\\" alt=\\\"avto\\\" class=\\\"card-photo\\\" style=\\\"height: 230px;\\\">\\r\\n                        <button class=\\\"card-button\\\" onclick=\\\"window.location.href = '#'\\\">\\r\\n                            Каталог\\r\\n                        </button>\\r\\n                    </div>\\r\\n                </div>\\r\\n            </div>\\r\\n        </div>\\r\\n    </div>\\r\\n    <div class=\\\"advantages\\\">\\r\\n        <div class=\\\"advantages__container\\\">\\r\\n            <h2 class=\\\"h2\\\">Премущества <span style=\\\"color: red;\\\">ЭкономТехно</span></h2>\\r\\n            <div class=\\\"advantages__list\\\">\\r\\n                <div class=\\\"advantages-card\\\">\\r\\n                    <div class=\\\"advantage-card__img\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_15___ + \"\\\" alt=\\\"price\\\" style=\\\"width: 150px; height: 150px;\\\">\\r\\n                    </div>\\r\\n                    <div class=\\\"advantage-card__text\\\">\\r\\n                        <p>Низкие цены</p>\\r\\n                    </div>\\r\\n                </div>\\r\\n                <div class=\\\"advantages-card\\\">\\r\\n                    <div class=\\\"advantage-card__img\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_16___ + \"\\\" alt=\\\"star\\\" style=\\\"width: 150px; height: 150px;\\\">\\r\\n                    </div>\\r\\n                    <div class=\\\"advantage-card__text\\\">\\r\\n                        <p>Качество</p>\\r\\n                    </div>\\r\\n                </div>\\r\\n                <div class=\\\"advantages-card\\\">\\r\\n                    <div class=\\\"advantage-card__img\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_17___ + \"\\\" alt=\\\"tool\\\" style=\\\"width: 150px; height: 150px;\\\">\\r\\n                    </div>\\r\\n                    <div class=\\\"advantage-card__text\\\">\\r\\n                        <p>Широкий ассортимент</p>\\r\\n                    </div>\\r\\n                </div>\\r\\n                <div class=\\\"advantages-card\\\">\\r\\n                    <div class=\\\"advantage-card__img\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_18___ + \"\\\" alt=\\\"setting\\\" style=\\\"width: 150px; height: 150px;\\\">\\r\\n                    </div>\\r\\n                    <div class=\\\"advantage-card__text\\\">\\r\\n                        <p>Опыт</p>\\r\\n                    </div>\\r\\n                </div>\\r\\n                <div class=\\\"advantages-card\\\">\\r\\n                    <div class=\\\"advantage-card__img\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_19___ + \"\\\" alt=\\\"sale\\\" style=\\\"width: 150px; height: 150px;\\\">\\r\\n                    </div>\\r\\n                    <div class=\\\"advantage-card__text\\\">\\r\\n                        <p>Постоянные скидки</p>\\r\\n                    </div>\\r\\n                </div>\\r\\n                <div class=\\\"advantages-card\\\">\\r\\n                    <div class=\\\"advantage-card__img\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_20___ + \"\\\" alt=\\\"certified\\\" style=\\\"width: 150px; height: 150px;\\\">\\r\\n                    </div>\\r\\n                    <div class=\\\"advantage-card__text\\\">\\r\\n                        <p>Большая гарантия</p>\\r\\n                    </div>\\r\\n                </div>\\r\\n                <div class=\\\"advantages-card\\\">\\r\\n                    <div class=\\\"advantage-card__img\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_21___ + \"\\\" alt=\\\"content\\\" style=\\\"width: 150px; height: 150px;\\\">\\r\\n                    </div>\\r\\n                    <div class=\\\"advantage-card__text\\\">\\r\\n                        <p>Гибкие условия покупки</p>\\r\\n                    </div>\\r\\n                </div>\\r\\n                <div class=\\\"advantages-card\\\">\\r\\n                    <div class=\\\"advantage-card__img\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_22___ + \"\\\" alt=\\\"protect\\\" style=\\\"width: 150px; height: 150px;\\\">\\r\\n                    </div>\\r\\n                    <div class=\\\"advantage-card__text\\\">\\r\\n                        <p>Надежность</p>\\r\\n                    </div>\\r\\n                </div>\\r\\n            </div>\\r\\n        </div>\\r\\n    </div>\\r\\n    <div class=\\\"producers\\\">\\r\\n        <div class=\\\"producers__container\\\">\\r\\n            <h2 class=\\\"h2\\\"><span style=\\\"color: red;\\\">Мы представляем</span> продукцию</h2>\\r\\n            <div class=\\\"producers__list\\\">\\r\\n                <div class=\\\"producers__item\\\">\\r\\n                    <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_23___ + \"\\\" alt=\\\"hammer\\\">\\r\\n                </div>\\r\\n                <div class=\\\"producers__item\\\">\\r\\n                    <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_24___ + \"\\\" alt=\\\"wortex\\\">\\r\\n                </div>\\r\\n                <div class=\\\"producers__item\\\">\\r\\n                    <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_25___ + \"\\\" alt=\\\"bosch\\\">\\r\\n                </div>\\r\\n                <div class=\\\"producers__item\\\">\\r\\n                    <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_26___ + \"\\\" alt=\\\"Scarlett\\\">\\r\\n                </div>\\r\\n                <div class=\\\"producers__item\\\">\\r\\n                    <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_27___ + \"\\\" alt=\\\"moulinex\\\">\\r\\n                </div>\\r\\n                <div class=\\\"producers__item\\\">\\r\\n                    <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_28___ + \"\\\" alt=\\\"braun\\\">\\r\\n                </div>\\r\\n                <div class=\\\"producers__item\\\">\\r\\n                    <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_29___ + \"\\\" alt=\\\"einhell\\\">\\r\\n                </div>\\r\\n                <div class=\\\"producers__item\\\">\\r\\n                    <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_30___ + \"\\\" alt=\\\"maunfeld\\\">\\r\\n                </div>\\r\\n            </div>\\r\\n        </div>\\r\\n    </div>\\r\\n    <div class=\\\"company-desk\\\">\\r\\n        <div class=\\\"company-desk__container\\\">\\r\\n            <h2 class=\\\"h2\\\">О <span style=\\\"color: red;\\\">компании</span></h2>\\r\\n            <div class=\\\"company-desk__row\\\">\\r\\n                <div class=\\\"company-desk__column\\\">\\r\\n                    <div class=\\\"company-desk__text-box\\\">\\r\\n                        <p>УМЕНИЕ НАЙТИ НУЖНУЮ ВЕЩЬ ПОДЕШЕВЛЕ — НАВЫК, КОТОРЫЙ ОТНОСИТСЯ К ФИНАНСОВОЙ ГРАМОТНОСТИ: \\r\\n                            МОЖНО ПОВЫШАТЬ КАЧЕСТВО ЖИЗНИ, НО НЕ ПЕРЕПЛАЧИВАТЬ ЗА ЭТО.</p>\\r\\n                        <p>\\r\\n                            Порою у человека есть необходимость в покупке какой либо бытовой техники,\\r\\n                             но цены на нее заоблачно высоки. А может, вы хотите приобрести новый девайс, \\r\\n                             но не знаете, будет ли полезен гаджет в эксплуатации дома? Ведь его можно купить \\r\\n                             недорого и не жалеть о покупке в случае ее не востребованности. \\r\\n                              таком случае вы точно наш клиент! Добро пожаловать! У нас такие цены,\\r\\n                               которые не ударят по вашему карману. Здесь можно приобрести бытовую технику,\\r\\n                                строительный и садовый инструмент по очень приемлемым ценам.\\r\\n                        </p>\\r\\n                    </div>\\r\\n                    <div class=\\\"company-desk__img-box\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_31___ + \"\\\" alt=\\\"econom\\\" style=\\\"width: 550px;\\\">\\r\\n                    </div>\\r\\n                </div>\\r\\n                <div class=\\\"company-desk__column\\\">\\r\\n                    <div class=\\\"company-desk__img-box\\\">\\r\\n                        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_32___ + \"\\\" alt=\\\"econom\\\" style=\\\"width: 550px;\\\">\\r\\n                    </div>\\r\\n                    <div class=\\\"company-desk__text-box\\\">\\r\\n                        <p>ГАРАНТИЯ</p>\\r\\n                        <p>Магазин даёт собственную гарантию на товар 2 месяца!\\r\\n                            Гарантия распространяется только на техническую исправность! \\r\\n                            Гарантия не распространяется на дефекты, возникшие в результате \\r\\n                            механического повреждения, из-за несоблюдения правил перевозки, \\r\\n                            содержания и использования. Так же гарантия не распространяется \\r\\n                            на программное обеспечение, установленное пользователем.\\r\\n                            Во избежание конфликтных ситуаций работающий, но по вашим словам \\r\\n                            – “некорректно” товар направляется на диагностику.\\r\\n                            Так же в ассортименте присутствуют товары с полной или частичной \\r\\n                            гарантией поставщика или производителя.\\r\\n                        </p>\\r\\n                    </div>\\r\\n                </div>\\r\\n            </div>\\r\\n        </div>\\r\\n    </div>\\r\\n</div>\\r\\n\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/index.html?");
 
 /***/ }),
 
@@ -150,433 +150,423 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
-/***/ "./mainPage/src/footer/img/clock.png":
-/*!*******************************************!*\
-  !*** ./mainPage/src/footer/img/clock.png ***!
-  \*******************************************/
+/***/ "./images/01.png":
+/*!***********************!*\
+  !*** ./images/01.png ***!
+  \***********************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"3e3908ca7c3ae984bea8.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/footer/img/clock.png?");
+eval("module.exports = __webpack_require__.p + \"7e78a2bcb0c5e485ac55.png\";\n\n//# sourceURL=webpack://economtechno/./images/01.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/footer/img/instagram.png":
-/*!***********************************************!*\
-  !*** ./mainPage/src/footer/img/instagram.png ***!
-  \***********************************************/
+/***/ "./images/AUH-022.png":
+/*!****************************!*\
+  !*** ./images/AUH-022.png ***!
+  \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"120706ffd0ec631a24a0.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/footer/img/instagram.png?");
+eval("module.exports = __webpack_require__.p + \"d660367e519b70819e7a.png\";\n\n//# sourceURL=webpack://economtechno/./images/AUH-022.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/footer/img/loco.png":
-/*!******************************************!*\
-  !*** ./mainPage/src/footer/img/loco.png ***!
-  \******************************************/
+/***/ "./images/INVERTOR.png":
+/*!*****************************!*\
+  !*** ./images/INVERTOR.png ***!
+  \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"720e9a2f7409a088c71a.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/footer/img/loco.png?");
+eval("module.exports = __webpack_require__.p + \"4122653b2ee0ae353897.png\";\n\n//# sourceURL=webpack://economtechno/./images/INVERTOR.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/footer/img/logo.png":
-/*!******************************************!*\
-  !*** ./mainPage/src/footer/img/logo.png ***!
-  \******************************************/
+/***/ "./images/Scarlett.png":
+/*!*****************************!*\
+  !*** ./images/Scarlett.png ***!
+  \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"84a8bdf0104e08ea192a.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/footer/img/logo.png?");
+eval("module.exports = __webpack_require__.p + \"a9d6262fdaa1b03e6ba6.png\";\n\n//# sourceURL=webpack://economtechno/./images/Scarlett.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/footer/img/mail.png":
-/*!******************************************!*\
-  !*** ./mainPage/src/footer/img/mail.png ***!
-  \******************************************/
+/***/ "./images/YSHM.png":
+/*!*************************!*\
+  !*** ./images/YSHM.png ***!
+  \*************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"dbd9bd05cf9db3d3ce70.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/footer/img/mail.png?");
+eval("module.exports = __webpack_require__.p + \"85c31e47b4fdf85fa4d2.png\";\n\n//# sourceURL=webpack://economtechno/./images/YSHM.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/footer/img/tiktok.png":
-/*!********************************************!*\
-  !*** ./mainPage/src/footer/img/tiktok.png ***!
-  \********************************************/
+/***/ "./images/avto.png":
+/*!*************************!*\
+  !*** ./images/avto.png ***!
+  \*************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"6571e4dc8b36fabfd39e.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/footer/img/tiktok.png?");
+eval("module.exports = __webpack_require__.p + \"1f8af61447c8d8336032.png\";\n\n//# sourceURL=webpack://economtechno/./images/avto.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/footer/img/vkontakte.png":
-/*!***********************************************!*\
-  !*** ./mainPage/src/footer/img/vkontakte.png ***!
-  \***********************************************/
+/***/ "./images/blender.png":
+/*!****************************!*\
+  !*** ./images/blender.png ***!
+  \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"c293ca71ab1ad9d1d68f.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/footer/img/vkontakte.png?");
+eval("module.exports = __webpack_require__.p + \"cf963cbd1472be1dcf34.png\";\n\n//# sourceURL=webpack://economtechno/./images/blender.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/header/img/busket.png":
-/*!********************************************!*\
-  !*** ./mainPage/src/header/img/busket.png ***!
-  \********************************************/
+/***/ "./images/bosch.png":
+/*!**************************!*\
+  !*** ./images/bosch.png ***!
+  \**************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"8328e79473b418968902.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/header/img/busket.png?");
+eval("module.exports = __webpack_require__.p + \"a396408a9cc163b97fc7.png\";\n\n//# sourceURL=webpack://economtechno/./images/bosch.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/header/img/like.png":
-/*!******************************************!*\
-  !*** ./mainPage/src/header/img/like.png ***!
-  \******************************************/
+/***/ "./images/braun.png":
+/*!**************************!*\
+  !*** ./images/braun.png ***!
+  \**************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"ef2e8da6e59cf8632a48.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/header/img/like.png?");
+eval("module.exports = __webpack_require__.p + \"22911c6e1b2655994b66.png\";\n\n//# sourceURL=webpack://economtechno/./images/braun.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/header/img/logo.png":
-/*!******************************************!*\
-  !*** ./mainPage/src/header/img/logo.png ***!
-  \******************************************/
+/***/ "./images/busket.png":
+/*!***************************!*\
+  !*** ./images/busket.png ***!
+  \***************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"84a8bdf0104e08ea192a.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/header/img/logo.png?");
+eval("module.exports = __webpack_require__.p + \"8328e79473b418968902.png\";\n\n//# sourceURL=webpack://economtechno/./images/busket.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/01.png":
-/*!**************************************!*\
-  !*** ./mainPage/src/main/img/01.png ***!
-  \**************************************/
+/***/ "./images/certified.png":
+/*!******************************!*\
+  !*** ./images/certified.png ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"7e78a2bcb0c5e485ac55.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/01.png?");
+eval("module.exports = __webpack_require__.p + \"06baa3acbe6ce906412f.png\";\n\n//# sourceURL=webpack://economtechno/./images/certified.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/AUH-022.png":
-/*!*******************************************!*\
-  !*** ./mainPage/src/main/img/AUH-022.png ***!
-  \*******************************************/
+/***/ "./images/chainik.png":
+/*!****************************!*\
+  !*** ./images/chainik.png ***!
+  \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"d660367e519b70819e7a.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/AUH-022.png?");
+eval("module.exports = __webpack_require__.p + \"f02ef98463b90be48164.png\";\n\n//# sourceURL=webpack://economtechno/./images/chainik.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/INVERTOR.png":
-/*!********************************************!*\
-  !*** ./mainPage/src/main/img/INVERTOR.png ***!
-  \********************************************/
+/***/ "./images/clock.png":
+/*!**************************!*\
+  !*** ./images/clock.png ***!
+  \**************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"4122653b2ee0ae353897.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/INVERTOR.png?");
+eval("module.exports = __webpack_require__.p + \"3e3908ca7c3ae984bea8.png\";\n\n//# sourceURL=webpack://economtechno/./images/clock.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/Scarlett.png":
-/*!********************************************!*\
-  !*** ./mainPage/src/main/img/Scarlett.png ***!
-  \********************************************/
+/***/ "./images/content.png":
+/*!****************************!*\
+  !*** ./images/content.png ***!
+  \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"a9d6262fdaa1b03e6ba6.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/Scarlett.png?");
+eval("module.exports = __webpack_require__.p + \"a5b1ee0c2751f2b99555.png\";\n\n//# sourceURL=webpack://economtechno/./images/content.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/YSHM.png":
-/*!****************************************!*\
-  !*** ./mainPage/src/main/img/YSHM.png ***!
-  \****************************************/
+/***/ "./images/einhell.png":
+/*!****************************!*\
+  !*** ./images/einhell.png ***!
+  \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"85c31e47b4fdf85fa4d2.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/YSHM.png?");
+eval("module.exports = __webpack_require__.p + \"7189372dbafdc7234e0d.png\";\n\n//# sourceURL=webpack://economtechno/./images/einhell.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/avto.png":
-/*!****************************************!*\
-  !*** ./mainPage/src/main/img/avto.png ***!
-  \****************************************/
+/***/ "./images/electronika.png":
+/*!********************************!*\
+  !*** ./images/electronika.png ***!
+  \********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"1f8af61447c8d8336032.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/avto.png?");
+eval("module.exports = __webpack_require__.p + \"3b8fa595cb9ca20fef7d.png\";\n\n//# sourceURL=webpack://economtechno/./images/electronika.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/blender.png":
-/*!*******************************************!*\
-  !*** ./mainPage/src/main/img/blender.png ***!
-  \*******************************************/
+/***/ "./images/fon.png":
+/*!************************!*\
+  !*** ./images/fon.png ***!
+  \************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"cf963cbd1472be1dcf34.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/blender.png?");
+eval("module.exports = __webpack_require__.p + \"e553d23b8453b8991ef1.png\";\n\n//# sourceURL=webpack://economtechno/./images/fon.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/bosch.png":
-/*!*****************************************!*\
-  !*** ./mainPage/src/main/img/bosch.png ***!
-  \*****************************************/
+/***/ "./images/hammer.png":
+/*!***************************!*\
+  !*** ./images/hammer.png ***!
+  \***************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"a396408a9cc163b97fc7.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/bosch.png?");
+eval("module.exports = __webpack_require__.p + \"06dad1b4b6c0bcd8f070.png\";\n\n//# sourceURL=webpack://economtechno/./images/hammer.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/braun.png":
-/*!*****************************************!*\
-  !*** ./mainPage/src/main/img/braun.png ***!
-  \*****************************************/
+/***/ "./images/instagram.png":
+/*!******************************!*\
+  !*** ./images/instagram.png ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"22911c6e1b2655994b66.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/braun.png?");
+eval("module.exports = __webpack_require__.p + \"120706ffd0ec631a24a0.png\";\n\n//# sourceURL=webpack://economtechno/./images/instagram.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/certified.png":
-/*!*********************************************!*\
-  !*** ./mainPage/src/main/img/certified.png ***!
-  \*********************************************/
+/***/ "./images/instryment.png":
+/*!*******************************!*\
+  !*** ./images/instryment.png ***!
+  \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"06baa3acbe6ce906412f.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/certified.png?");
+eval("module.exports = __webpack_require__.p + \"b09d0c14bde73dca128d.png\";\n\n//# sourceURL=webpack://economtechno/./images/instryment.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/chainik.png":
-/*!*******************************************!*\
-  !*** ./mainPage/src/main/img/chainik.png ***!
-  \*******************************************/
+/***/ "./images/kychnia.png":
+/*!****************************!*\
+  !*** ./images/kychnia.png ***!
+  \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"f02ef98463b90be48164.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/chainik.png?");
+eval("module.exports = __webpack_require__.p + \"4cfab5932aa77146690b.png\";\n\n//# sourceURL=webpack://economtechno/./images/kychnia.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/content.png":
-/*!*******************************************!*\
-  !*** ./mainPage/src/main/img/content.png ***!
-  \*******************************************/
+/***/ "./images/like.png":
+/*!*************************!*\
+  !*** ./images/like.png ***!
+  \*************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"a5b1ee0c2751f2b99555.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/content.png?");
+eval("module.exports = __webpack_require__.p + \"ef2e8da6e59cf8632a48.png\";\n\n//# sourceURL=webpack://economtechno/./images/like.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/einhell.png":
-/*!*******************************************!*\
-  !*** ./mainPage/src/main/img/einhell.png ***!
-  \*******************************************/
+/***/ "./images/lobzik.png":
+/*!***************************!*\
+  !*** ./images/lobzik.png ***!
+  \***************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"7189372dbafdc7234e0d.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/einhell.png?");
+eval("module.exports = __webpack_require__.p + \"075b40edbe3bd555749b.png\";\n\n//# sourceURL=webpack://economtechno/./images/lobzik.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/electronika.png":
-/*!***********************************************!*\
-  !*** ./mainPage/src/main/img/electronika.png ***!
-  \***********************************************/
+/***/ "./images/loco.png":
+/*!*************************!*\
+  !*** ./images/loco.png ***!
+  \*************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"3b8fa595cb9ca20fef7d.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/electronika.png?");
+eval("module.exports = __webpack_require__.p + \"720e9a2f7409a088c71a.png\";\n\n//# sourceURL=webpack://economtechno/./images/loco.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/fon.png":
-/*!***************************************!*\
-  !*** ./mainPage/src/main/img/fon.png ***!
-  \***************************************/
+/***/ "./images/logo.png":
+/*!*************************!*\
+  !*** ./images/logo.png ***!
+  \*************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"e553d23b8453b8991ef1.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/fon.png?");
+eval("module.exports = __webpack_require__.p + \"84a8bdf0104e08ea192a.png\";\n\n//# sourceURL=webpack://economtechno/./images/logo.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/hammer.png":
-/*!******************************************!*\
-  !*** ./mainPage/src/main/img/hammer.png ***!
-  \******************************************/
+/***/ "./images/mail.png":
+/*!*************************!*\
+  !*** ./images/mail.png ***!
+  \*************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"06dad1b4b6c0bcd8f070.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/hammer.png?");
+eval("module.exports = __webpack_require__.p + \"dbd9bd05cf9db3d3ce70.png\";\n\n//# sourceURL=webpack://economtechno/./images/mail.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/instryment.png":
-/*!**********************************************!*\
-  !*** ./mainPage/src/main/img/instryment.png ***!
-  \**********************************************/
+/***/ "./images/maunfeld.png":
+/*!*****************************!*\
+  !*** ./images/maunfeld.png ***!
+  \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"b09d0c14bde73dca128d.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/instryment.png?");
+eval("module.exports = __webpack_require__.p + \"c9aba8f444ae58e5346d.png\";\n\n//# sourceURL=webpack://economtechno/./images/maunfeld.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/kychnia.png":
-/*!*******************************************!*\
-  !*** ./mainPage/src/main/img/kychnia.png ***!
-  \*******************************************/
+/***/ "./images/miaso.png":
+/*!**************************!*\
+  !*** ./images/miaso.png ***!
+  \**************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"4cfab5932aa77146690b.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/kychnia.png?");
+eval("module.exports = __webpack_require__.p + \"ef7e9dd8f49745146306.png\";\n\n//# sourceURL=webpack://economtechno/./images/miaso.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/lobzik.png":
-/*!******************************************!*\
-  !*** ./mainPage/src/main/img/lobzik.png ***!
-  \******************************************/
+/***/ "./images/moulinex.png":
+/*!*****************************!*\
+  !*** ./images/moulinex.png ***!
+  \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"075b40edbe3bd555749b.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/lobzik.png?");
+eval("module.exports = __webpack_require__.p + \"27dc6869cfbcbdeea8c7.png\";\n\n//# sourceURL=webpack://economtechno/./images/moulinex.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/maunfeld.png":
-/*!********************************************!*\
-  !*** ./mainPage/src/main/img/maunfeld.png ***!
-  \********************************************/
+/***/ "./images/multivarka.png":
+/*!*******************************!*\
+  !*** ./images/multivarka.png ***!
+  \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"c9aba8f444ae58e5346d.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/maunfeld.png?");
+eval("module.exports = __webpack_require__.p + \"1e4b6ce47a251bd9511d.png\";\n\n//# sourceURL=webpack://economtechno/./images/multivarka.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/miaso.png":
-/*!*****************************************!*\
-  !*** ./mainPage/src/main/img/miaso.png ***!
-  \*****************************************/
+/***/ "./images/photo1.png":
+/*!***************************!*\
+  !*** ./images/photo1.png ***!
+  \***************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"ef7e9dd8f49745146306.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/miaso.png?");
+eval("module.exports = __webpack_require__.p + \"331c77ea48fa82a9754b.png\";\n\n//# sourceURL=webpack://economtechno/./images/photo1.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/moulinex.png":
-/*!********************************************!*\
-  !*** ./mainPage/src/main/img/moulinex.png ***!
-  \********************************************/
+/***/ "./images/photo2.png":
+/*!***************************!*\
+  !*** ./images/photo2.png ***!
+  \***************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"27dc6869cfbcbdeea8c7.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/moulinex.png?");
+eval("module.exports = __webpack_require__.p + \"fbc64d672b49c0188458.png\";\n\n//# sourceURL=webpack://economtechno/./images/photo2.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/multivarka.png":
-/*!**********************************************!*\
-  !*** ./mainPage/src/main/img/multivarka.png ***!
-  \**********************************************/
+/***/ "./images/price.png":
+/*!**************************!*\
+  !*** ./images/price.png ***!
+  \**************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"1e4b6ce47a251bd9511d.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/multivarka.png?");
+eval("module.exports = __webpack_require__.p + \"ac44ffa45bb5aa12a5d2.png\";\n\n//# sourceURL=webpack://economtechno/./images/price.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/photo1.png":
-/*!******************************************!*\
-  !*** ./mainPage/src/main/img/photo1.png ***!
-  \******************************************/
+/***/ "./images/protect.png":
+/*!****************************!*\
+  !*** ./images/protect.png ***!
+  \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"331c77ea48fa82a9754b.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/photo1.png?");
+eval("module.exports = __webpack_require__.p + \"ce344c942669dbcca517.png\";\n\n//# sourceURL=webpack://economtechno/./images/protect.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/photo2.png":
-/*!******************************************!*\
-  !*** ./mainPage/src/main/img/photo2.png ***!
-  \******************************************/
+/***/ "./images/sale.png":
+/*!*************************!*\
+  !*** ./images/sale.png ***!
+  \*************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"fbc64d672b49c0188458.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/photo2.png?");
+eval("module.exports = __webpack_require__.p + \"f6e5e5446e23d926ac5c.png\";\n\n//# sourceURL=webpack://economtechno/./images/sale.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/price.png":
-/*!*****************************************!*\
-  !*** ./mainPage/src/main/img/price.png ***!
-  \*****************************************/
+/***/ "./images/setting.png":
+/*!****************************!*\
+  !*** ./images/setting.png ***!
+  \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"ac44ffa45bb5aa12a5d2.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/price.png?");
+eval("module.exports = __webpack_require__.p + \"46035d3adb6df8c9fe16.png\";\n\n//# sourceURL=webpack://economtechno/./images/setting.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/protect.png":
-/*!*******************************************!*\
-  !*** ./mainPage/src/main/img/protect.png ***!
-  \*******************************************/
+/***/ "./images/star.png":
+/*!*************************!*\
+  !*** ./images/star.png ***!
+  \*************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"ce344c942669dbcca517.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/protect.png?");
+eval("module.exports = __webpack_require__.p + \"a854ad464b04a8d0e781.png\";\n\n//# sourceURL=webpack://economtechno/./images/star.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/sale.png":
-/*!****************************************!*\
-  !*** ./mainPage/src/main/img/sale.png ***!
-  \****************************************/
+/***/ "./images/technika.png":
+/*!*****************************!*\
+  !*** ./images/technika.png ***!
+  \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"f6e5e5446e23d926ac5c.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/sale.png?");
+eval("module.exports = __webpack_require__.p + \"1a2b33bc4a641253ff12.png\";\n\n//# sourceURL=webpack://economtechno/./images/technika.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/setting.png":
-/*!*******************************************!*\
-  !*** ./mainPage/src/main/img/setting.png ***!
-  \*******************************************/
+/***/ "./images/tiktok.png":
+/*!***************************!*\
+  !*** ./images/tiktok.png ***!
+  \***************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"46035d3adb6df8c9fe16.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/setting.png?");
+eval("module.exports = __webpack_require__.p + \"6571e4dc8b36fabfd39e.png\";\n\n//# sourceURL=webpack://economtechno/./images/tiktok.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/star.png":
-/*!****************************************!*\
-  !*** ./mainPage/src/main/img/star.png ***!
-  \****************************************/
+/***/ "./images/tool_113298.png":
+/*!********************************!*\
+  !*** ./images/tool_113298.png ***!
+  \********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"a854ad464b04a8d0e781.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/star.png?");
+eval("module.exports = __webpack_require__.p + \"67bdbb8d2e44ee39d53b.png\";\n\n//# sourceURL=webpack://economtechno/./images/tool_113298.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/technika.png":
-/*!********************************************!*\
-  !*** ./mainPage/src/main/img/technika.png ***!
-  \********************************************/
+/***/ "./images/vkontakte.png":
+/*!******************************!*\
+  !*** ./images/vkontakte.png ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"1a2b33bc4a641253ff12.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/technika.png?");
+eval("module.exports = __webpack_require__.p + \"c293ca71ab1ad9d1d68f.png\";\n\n//# sourceURL=webpack://economtechno/./images/vkontakte.png?");
 
 /***/ }),
 
-/***/ "./mainPage/src/main/img/tool_113298.png":
-/*!***********************************************!*\
-  !*** ./mainPage/src/main/img/tool_113298.png ***!
-  \***********************************************/
+/***/ "./images/wortex.png":
+/*!***************************!*\
+  !*** ./images/wortex.png ***!
+  \***************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"67bdbb8d2e44ee39d53b.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/tool_113298.png?");
-
-/***/ }),
-
-/***/ "./mainPage/src/main/img/wortex.png":
-/*!******************************************!*\
-  !*** ./mainPage/src/main/img/wortex.png ***!
-  \******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"2fe7c7e035edd086b836.png\";\n\n//# sourceURL=webpack://economtechno/./mainPage/src/main/img/wortex.png?");
+eval("module.exports = __webpack_require__.p + \"2fe7c7e035edd086b836.png\";\n\n//# sourceURL=webpack://economtechno/./images/wortex.png?");
 
 /***/ }),
 
@@ -684,6 +674,18 @@ eval("module.exports = JSON.parse('[{\"name\":\"Электролобзик Worte
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -702,7 +704,25 @@ eval("module.exports = JSON.parse('[{\"name\":\"Электролобзик Worte
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "/";
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && !scriptUrl) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */

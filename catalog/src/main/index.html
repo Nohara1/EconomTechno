@@ -1,0 +1,23 @@
+<div class="main__container">
+    <div class="catalog__container">
+        <div class="catalog__column">
+            <h1 class="h1">
+                Техника для <span style="color: red;">кухни</span>
+            </h1>
+            <div class="b-panel">
+                <div class="b-panel__sidebar"></div>
+                <div class="b-panel__content"></div>
+            </div>
+        </div>
+    </div>
+    <script id="category-template" type="text/x-handlebars-template">
+        {{#each categories}}
+        <div class="products__card">
+            <img src="{{image}}" alt="{{name}}" width="100%" height="50%">
+            <h2>{{name}}</h2>
+            <p>Цена: {{price}}byn</p>
+            <p>{{description}}</p>
+        </div>
+        {{/each}}
+    </script>
+</div>

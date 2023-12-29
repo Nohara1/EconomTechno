@@ -1,0 +1,264 @@
+[
+    {
+        "id": 1,
+        "name": "Мясорубка Moulinex HV10 ME658D32",
+        "price": 350,
+        "description": "Мощность - 800Вт, Производительность - 5.5 кг/мин",
+        "category": "Техника для кухни",
+        "subCategory": "Подготовка продуктов",
+        "image": "../../../images/moulinexmiaso.png"
+    },
+    {
+        "id": 2,
+        "name": "Мультипекарь Atlanta ATH-1060",
+        "price": 145,
+        "description": "Антипригарное покрытией",
+        "category": "Техника для кухни",
+        "subCategory": "Приготовление пищи",
+        "image": "../../../images/atlanta.png"
+    },
+    {
+        "id": 3,
+        "name": "Кофемашина Saeco Royal Professional New Steam System Chrome",
+        "price": 700,
+        "description": "Емкость контейнера - 250 г, Приготовление капучино - Ручное, Мощность - 1250 Вт",
+        "category": "Техника для кухни",
+        "subCategory": "Приготовление пищи",
+        "image": "../../../images/saeco].png"
+    },
+    {
+        "id": 4,
+        "name": "Кухонный комбайн Normann AFP-947",
+        "price": 190,
+        "description": "Мощность - 1000Вт, Объем чаши - 2 л",
+        "category": "Техника для кухни",
+        "subCategory": "Подготовка продуктов",
+        "image": "../../../images/AFP-947.png"
+    },
+    {
+        "id": 5,
+        "name": "Циркулярная пила Wortex CS1916L",
+        "price": 245,
+        "description": "Мощность 1600Вт, Тип питания - от сети, Лазерный маркер",
+        "category": "Электроинструмент",
+        "subCategory": "Инструмент и оборудование",
+        "image": "../../../images/1916L.png"
+    },
+    {
+        "id": 6,
+        "name": "Рубанок электрический Molot MPL 2006",
+        "price": 95,
+        "description": "Частота вращения вала - 16000 об/мин, Рабочая ширина - 82 мм",
+        "category": "Электроинструмент",
+        "subCategory": "Инструмент и оборудование",
+        "image": "../../../images/MPL2006.png"
+    },
+    {
+        "id": 7,
+        "name": "Угловая шлифмашина Wortex AG 1211-2",
+        "price": 155,
+        "description": "Частота вращения - 5500-11000об/мин, Резьба шпинделя - M14",
+        "category": "Электроинструмент",
+        "subCategory": "Инструмент и оборудование",
+        "image": "../../../images/AG1211.png"
+    },
+    {
+        "id": 8,
+        "name": "Станок вертикально-сверлильный Wortex DB1605",
+        "price": 300,
+        "description": "Мощность - 500Вт, Напряжение - 220 В, Количество скоростей - 9",
+        "category": "Электроинструмент",
+        "subCategory": "Инструмент и оборудование",
+        "image": "../../../images/DB1605.png"
+    },
+    {
+        "id": 9,
+        "name": "Миксер планетарный Normann AMX-513",
+        "price": 70,
+        "description": "Мощность - 350Вт, Объем чаши - 2 л, Количество насадок - 4",
+        "category": "Техника для кухни",
+        "subCategory": "Подготовка продуктов",
+        "image": "../../../images/amx-513.png"
+    },
+    {
+        "id": 10,
+        "name": "Кухонная вытяжка Maunfeld Crosby Power 60",
+        "price": 350,
+        "description": "Производительность - 1050 м³/час, Количество двигателей - 1, Количество скоростей - 3",
+        "category": "Техника для кухни",
+        "subCategory": "Вытяжки",
+        "image": "../../../images/CrosbyPower.png"
+    },
+    {
+        "id": 11,
+        "name": "Вытяжка кухонная Maunfeld Crosby Rocky 60",
+        "price": 400,
+        "description": "Производительность - 750 м3/час, Количество двигателей - 1, Количество скоростей - 3",
+        "category": "Техника для кухни",
+        "subCategory": "Вытяжки",
+        "image": "../../../images/CrosbyRocky.png"
+    },
+    {
+        "id": 12,
+        "name": "Кухонная вытяжка MAUNFELD Fantasy Light 60",
+        "price": 630,
+        "description": "Производительность - 700 м³/час, Количество двигателей - 1, Количество скоростей - 3",
+        "category": "Техника для кухни",
+        "subCategory": "Вытяжки",
+        "image": "../../../images/FantasyLight.png"
+    },
+    {
+        "id": 13,
+        "name": "Газовая варочная поверхность HomSair HGS433S",
+        "price": 630,
+        "description": "Конфорок на варочной панели - 3, Мощность - 5.3кВт",
+        "category": "Техника для кухни",
+        "subCategory": "Плиты,печи,духовки",
+        "image": "../../../images/HGS433S.png"
+    },
+    {
+        "id": 14,
+        "name": "Электрическая варочная поверхность Maunfeld EEHS.32.4S",
+        "price": 235,
+        "description": "Конфорок на варочной панели - 2, Мощность - 3кВт",
+        "category": "Техника для кухни",
+        "subCategory": "Плиты,печи,духовки",
+        "image": "../../../images/EEHS.32.4S.png"
+    },
+    {
+        "id": 15,
+        "name": "Умные часы DIZO WATCH 2 DW2118",
+        "price": 69,
+        "description": "Поддержка платформ - Android/iOS, Материал - Силикон/Металл, Размер дисплея - 1.69",
+        "category": "Электроника",
+        "subCategory": "Смартфоны и телефоны",
+        "image": "../../../images/DW2118.png"
+    },
+    {
+        "id": 16,
+        "name": "Наушники беспроводные TFN Bloom / TFN-HS-BT450BK",
+        "price": 69,
+        "description": "Тип подключения - Беспроводное, Емкость аккумулятора - 300 mAh",
+        "category": "Электроника",
+        "subCategory": "Акустика",
+        "image": "../../../images/TFN-HS-BT450BKTFN-HS-BT450BK.png"
+    },
+    {
+        "id": 17,
+        "name": "Наушники беспроводные Anker SoundCore Liberty 3 Pro A3952G11",
+        "price": 290,
+        "description": "Тип подключения - Беспроводное (True wireless), Время автономной работы - 8 ч",
+        "category": "Электроника",
+        "subCategory": "Акустика",
+        "image": "../../../images/A3952G11.png"
+    },
+    {
+        "id": 18,
+        "name": "Отпариватель Kitfort KT-984-1",
+        "price": 78,
+        "description": "Мощность - 1600 Вт, Мощность подачи пара - 28 г/мин",
+        "category": "Техника для дома",
+        "subCategory": "Уход за одеждой",
+        "image": "../../../images/KT-984-1.png"
+    },
+    {
+        "id": 19,
+        "name": "Утюг Evolution I-2226",
+        "price": 38,
+        "description": "Мощность - 2200 Вт, Рабочая поверхность - Керамика",
+        "category": "Техника для дома",
+        "subCategory": "Уход за одеждой",
+        "image": "../../../images/I-2226.png"
+    },
+    {
+        "id": 20,
+        "name": "Шкаф духовой электрический Shaub Lorenz SLB EB4610",
+        "price": 800,
+        "description": "Мощность - 1.8 кВт, Объем духовки - 45 л, Максимальная температура - 240C",
+        "category": "Техника для кухни",
+        "subCategory": "Плиты,печи,духовки",
+        "image": "../../../images/EB4610.png"
+    },
+    {
+        "id": 21,
+        "name": "Насос вибрационный РУЧЕЕК-1 10м (верхний забор)",
+        "price": 50,
+        "description": "Мощность - 225 Вт, Место установки - погружной, Максимальная глубина погружения - 3 м",
+        "category": "Электроинструмент",
+        "subCategory": "Садовая техника",
+        "image": "../../../images/РУЧЕЕК-1.png"
+    },
+    {
+        "id": 22,
+        "name": "Сушильная машина Maunfeld MFDM1410WH06",
+        "price": 2350,
+        "description": "Количество программ сушки - 14, Тип мотора - Инверторный, Вес загрузки белья для сушки - 10 кг",
+        "category": "Техника для дома",
+        "subCategory": "Стиральные и сушильные машины",
+        "image": "../../../images/MFDM1410WH06.png"
+    },
+    {
+        "id": 23,
+        "name": "Пылесос вертикальный Deerma VC01",
+        "price": 180,
+        "description": "Мощность всасывания - 125 Вт, Питание - Аккумулятор, Степень фильтрации - 3",
+        "category": "Техника для дома",
+        "subCategory": "Техника для уборки",
+        "image": "../../../images/VC01.png"
+    },
+    {
+        "id": 24,
+        "name": "Конвектор FAVOURITE IRS 2000M",
+        "price": 180,
+        "description": "Потребляемая мощность - 2000 Вт, Рекомендуемая площадь обогрева - 25 м²",
+        "category": "Техника для дома",
+        "subCategory": "Климатическая техника",
+        "image": "../../../images/2000M.png"
+    },
+    {
+        "id": 25,
+        "name": "Мышь компьютерная SteelSeries Rival3 Bluetooth",
+        "price": 70,
+        "description": "Тип - игровая, Разрешение оптического сенсора - 100–18,000 CPI, Вес - 106g / 96g",
+        "category": "Электроника",
+        "subCategory": "Компьютерные комплектующие",
+        "image": "../../../images/steal.png"
+    },
+    {
+        "id": 26,
+        "name": "Зеркало с подсветкой Континент Style White Led D60",
+        "price": 220,
+        "description": "Типоразмер - ширина 60, Материал - МДФ",
+        "category": "Электроинструмент",
+        "subCategory": "Освещение",
+        "image": "../../../images/window.png"
+    },
+    {
+        "id": 27,
+        "name": "Телевизор LG 32LQ63006LA",
+        "price": 700,
+        "description": "Тип экрана - LCD, Разрешение - Full HD-1920x1080, Smart TV, Диагональ - 32",
+        "category": "Электроника",
+        "subCategory": "Телевизоры",
+        "image": "../../../images/32LQ63006LA.png"
+    },
+    {
+        "id": 28,
+        "name": "Датчик температуры и влажности AtuMan Duka TH1",
+        "price": 37,
+        "description": "Прогноз погоды, Температура внутри помещения, Влажность внутри помещения",
+        "category": "Электроника",
+        "subCategory": "Умный дом",
+        "image": "../../../images/TH1.png"
+    },
+    {
+        "id": 29,
+        "name": "ВСТРАИВАЕМЫЙ ХОЛОДИЛЬНИК ZIGMUND & SHTAIN BR 12.1221 SX",
+        "price": 700,
+        "description": "Габариты - 540 х 540 х 1220 мм, Общий объём брутто - 190 л., Потребление энергии - 0,76 кВт",
+        "category": "Техника для кухни",
+        "subCategory": "Холодильники",
+        "image": "../../../images/ZIGMUND.png"
+    }
+
+]

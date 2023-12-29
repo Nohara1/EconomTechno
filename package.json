@@ -10,6 +10,7 @@
     "start": "node_modules/.bin/webpack-dev-server"
   },
   "dependencies": {
+    "handlebars": "^4.7.8",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.4",
     "sweetalert2": "^11.10.1",
@@ -19,6 +20,7 @@
     "webpack-dev-server": "^4.15.1"
   },
   "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.8.1",
     "file-loader": "^6.2.0",
     "install": "^0.13.0",
