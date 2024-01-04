@@ -145,6 +145,10 @@ a {
 * {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
 
+ul {
+  padding: 0;
+  list-style: none; }
+
 h1 {
   font-size: 45px;
   text-align: center; }
@@ -188,9 +192,31 @@ h2 {
     height: 100%;
     padding: 20px 5px 0px 5px; }
     .b-panel .b-panel__content .products__card {
+      cursor: pointer;
       font-size: 20px;
       width: 280px;
-      height: 500px; }
+      height: 500px;
+      transition: transform 0.3s ease-in-out; }
+      .b-panel .b-panel__content .products__card:hover {
+        transform: scale(1.03); }
+  .b-panel .b-panel__sidebar {
+    font-size: 20px;
+    width: 30%;
+    height: 100%; }
+    .b-panel .b-panel__sidebar .slider-from-to__inputs {
+      display: flex; }
+      .b-panel .b-panel__sidebar .slider-from-to__inputs .slider-from-to__label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%; }
+        .b-panel .b-panel__sidebar .slider-from-to__inputs .slider-from-to__label .slider-from-to__text {
+          text-align: center;
+          width: 60%; }
+  .b-panel .filters-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; }
 
 /*!*************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./catalog/src/footer/footer.scss ***!

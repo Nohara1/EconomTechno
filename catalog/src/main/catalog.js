@@ -2,10 +2,8 @@ import Handlebars from 'handlebars';
 import productData from './product.json';
 
 document.addEventListener('DOMContentLoaded', () => {
-    const categoryLinks = document.querySelectorAll('.menu__submenu-first a');
     const panelContent = document.querySelector('.b-panel__content');
-    const subCategoryLinks = document.querySelectorAll('.menu__submenu-second a');
-
+    const h = document.querySelector('.h1');
 
     function filterProductsByCategory(selectedCategory) {
         return productData.filter(product => product.category === selectedCategory);
@@ -25,7 +23,17 @@ document.addEventListener('DOMContentLoaded', () => {
     function handleCategoryClick(event) {
         event.preventDefault();
         const selectedCategory = this.textContent.trim();
+        const subCategory = '';
+
         
+        const url = new URL(window.location.href);
+        url.searchParams.set('category', selectedCategory);
+        url.searchParams.set('subCategory', subCategory);
+        // Обновление URL без перезагрузки страницы
+        window.history.pushState({}, '', url);
+
+        h.textContent = this.textContent.trim();
+
         const filteredProducts = filterProductsByCategory(selectedCategory);
         displayProducts(filteredProducts);
     }
