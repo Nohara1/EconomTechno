@@ -1,0 +1,69 @@
+$font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+@mixin flex(){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*{
+    font-family: $font;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+}
+
+.main__container{
+    width: 100%;
+    height: 100%;
+    .product{
+        @include flex();
+        width: 100%;
+        height: 3300px;
+        padding-top: 120px;
+        .container{
+            width: 1300px;
+            height: 100%;
+        }
+    }
+}
+.product__row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 480px;
+    padding-top: 40px;
+    .product__image{
+        width: 480px;
+        height: 480px;
+    }
+    .preview-characteristics__wrapper{
+        white-space: pre-line;
+        width: 500px;
+        line-height: 35px;
+        font-size: 16px;
+    }
+    .delivery-information{
+        display: flex;
+        flex-direction: row;
+        border-top: 1px solid black;
+        height: 199px;
+        .delivery-information__column{
+            width: 50%;
+            height: 100%;
+            .delivery-information__item{
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                text-align: center;
+                height: 50%;
+                .delivery-information__header{
+                    display: inline-flex;
+                    height: 32px;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}

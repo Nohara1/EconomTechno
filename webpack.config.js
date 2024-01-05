@@ -11,6 +11,7 @@ module.exports = {
         aboutPage: './about/src/index.js',
         contactPage: './contact/src/index.js',
         catalogPage: './catalog/src/index.js',
+        productPage: './productCard/src/index.js',
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -73,6 +74,11 @@ module.exports = {
             template: './catalog/src/index.html',
             filename: './catalog.html',
             chunks: ['catalogPage'],
+        }),
+        new HtmlWebPackPlugin({
+            template: './productCard/src/index.html',
+            filename: './productCard.html',
+            chunks: ['productPage'],
         }),
         
         new MiniCssExtractPlugin({

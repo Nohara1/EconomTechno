@@ -4,7 +4,12 @@ import productData from './product.json';
 document.addEventListener('DOMContentLoaded', () => {
     const panelContent = document.querySelector('.b-panel__content');
     const h = document.querySelector('.h1');
+    const sidebarItem = document.querySelectorAll('.filters-menu__item');
+    const subMenuFirst = document.querySelectorAll('.menu__submenu-first a');
+    const subMenuSecond = document.querySelectorAll('.menu__submenu-second a');
+    
 
+  
     function filterProductsByCategory(selectedCategory) {
         return productData.filter(product => product.category === selectedCategory);
     }
@@ -23,14 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
     function handleCategoryClick(event) {
         event.preventDefault();
         const selectedCategory = this.textContent.trim();
-        const subCategory = '';
 
-        
-        const url = new URL(window.location.href);
-        url.searchParams.set('category', selectedCategory);
-        url.searchParams.set('subCategory', subCategory);
-        // Обновление URL без перезагрузки страницы
-        window.history.pushState({}, '', url);
+        console.log(selectedCategory);
 
         h.textContent = this.textContent.trim();
 
@@ -46,14 +45,17 @@ document.addEventListener('DOMContentLoaded', () => {
         displayProducts(filteredProducts); 
     }
 
-    document.querySelectorAll('.menu__submenu-first a').forEach(link => {
+    sidebarItem.forEach(link =>{
+        link.addEventListener('click', handleSubCategoryClick)
+    })
+
+    subMenuFirst.forEach(link => {
         link.addEventListener('click', handleCategoryClick);
     });
 
-    document.querySelectorAll('.menu__submenu-second a').forEach(link => {
+    subMenuSecond.forEach(link => {
         link.addEventListener('click', handleSubCategoryClick);
     });
 
     displayProducts(productData);
-
 });

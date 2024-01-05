@@ -74,24 +74,17 @@ h2{
         font-size: 20px;
         width: 30%;
         height: 100%;
-        .slider-from-to__inputs{
+        .filters-menu{
             display: flex;
-            .slider-from-to__label{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                width: 50%;
-                .slider-from-to__text{
-                    text-align: center;
-                    width: 60%;
+            flex-direction: column;
+            gap: 30px;
+            .filters-menu__item{
+                cursor: pointer;
+                &:hover{
+                    transition: all 0.2s ease-in-out;
+                    color: red;
                 }
             }
         }
     }
-    .filters-menu{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
-
 }

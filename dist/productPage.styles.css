@@ -1,6 +1,6 @@
-/*!***********************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./catalog/src/scss/styles.scss ***!
-  \***********************************************************************************************************************/
+/*!***************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./productCard/src/scss/styles.scss ***!
+  \***************************************************************************************************************************/
 html {
   scroll-behavior: smooth;
   overflow-x: hidden; }
@@ -34,9 +34,9 @@ html {
       height: 200px;
       align-items: center; }
 
-/*!*************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./catalog/src/header/header.scss ***!
-  \*************************************************************************************************************************/
+/*!*****************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./productCard/src/header/header.scss ***!
+  \*****************************************************************************************************************************/
 a {
   cursor: pointer;
   text-decoration: none;
@@ -139,83 +139,68 @@ a {
 .lvl5 {
   top: 80%; }
 
-/*!*********************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./catalog/src/main/main.scss ***!
-  \*********************************************************************************************************************/
+/*!*************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./productCard/src/main/main.scss ***!
+  \*************************************************************************************************************************/
 * {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
-
-ul {
-  padding: 0;
-  list-style: none; }
 
 h1 {
   font-size: 45px;
   text-align: center; }
 
-h2 {
-  font-size: 25px;
-  text-align: center; }
-
 .main__container {
   width: 100%;
   height: 100%; }
-  .main__container .catalog__container {
+  .main__container .product {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 120px 0px 0px 0px;
-    height: 100%; }
-    .main__container .catalog__container .catalog__column {
+    height: 3300px;
+    padding-top: 120px; }
+    .main__container .product .container {
       width: 1300px;
       height: 100%; }
-      .main__container .catalog__container .catalog__column .catalog__sidebar {
-        width: 30%;
-        height: 100%; }
 
-.b-panel {
+.product__row {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   width: 100%;
-  height: 100%; }
-  .b-panel .b-panel__sidebar {
-    width: 30%;
-    height: 100%; }
-  .b-panel .b-panel__content {
+  height: 480px;
+  padding-top: 40px; }
+  .product__row .product__image {
+    width: 480px;
+    height: 480px; }
+  .product__row .preview-characteristics__wrapper {
+    white-space: pre-line;
+    width: 500px;
+    line-height: 35px;
+    font-size: 16px; }
+  .product__row .delivery-information {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 30px;
-    width: 70%;
-    height: 100%;
-    padding: 20px 5px 0px 5px; }
-    .b-panel .b-panel__content .products__card {
-      cursor: pointer;
-      font-size: 20px;
-      width: 280px;
-      height: 500px;
-      transition: transform 0.3s ease-in-out; }
-      .b-panel .b-panel__content .products__card:hover {
-        transform: scale(1.03); }
-  .b-panel .b-panel__sidebar {
-    font-size: 20px;
-    width: 30%;
-    height: 100%; }
-    .b-panel .b-panel__sidebar .filters-menu {
-      display: flex;
-      flex-direction: column;
-      gap: 30px; }
-      .b-panel .b-panel__sidebar .filters-menu .filters-menu__item {
-        cursor: pointer; }
-        .b-panel .b-panel__sidebar .filters-menu .filters-menu__item:hover {
-          transition: all 0.2s ease-in-out;
-          color: red; }
+    border-top: 1px solid black;
+    height: 199px; }
+    .product__row .delivery-information .delivery-information__column {
+      width: 50%;
+      height: 100%; }
+      .product__row .delivery-information .delivery-information__column .delivery-information__item {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        height: 50%; }
+        .product__row .delivery-information .delivery-information__column .delivery-information__item .delivery-information__header {
+          display: inline-flex;
+          height: 32px;
+          align-items: center; }
 
-/*!*************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./catalog/src/footer/footer.scss ***!
-  \*************************************************************************************************************************/
+/*!*****************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./productCard/src/footer/footer.scss ***!
+  \*****************************************************************************************************************************/
 a {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   text-decoration: none; }

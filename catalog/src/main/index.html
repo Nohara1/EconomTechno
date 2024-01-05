@@ -9,99 +9,65 @@
                     <div class="filters__inner">
                         <ul class="filters-menu">
                             <li class="filters-menu__item">
-                                <div class="filter-menu__head">
-                                    <span>Цена, BYN</span>
-                                </div>
-                                <ul class="filters-menu__submenu">
-                                    <li>
-                                        <div class="slider-from-to">
-                                            <div class="slider-from-to__inputs">
-                                                <label class="slider-from-to__label">
-                                                    <div class="slider-from-to__text">От</div>
-                                                    <input type="text" class="slider-from-to__text">
-                                                </label>
-                                                <label class="slider-from-to__label">
-                                                    <div class="slider-from-to__text">До</div>
-                                                    <input type="text" class="slider-from-to__text">
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
+                               Стиральные и сушильные машины
                             </li>
                             <li class="filters-menu__item">
-                                <div class="filter-menu__label">
-                                    <span>Производитель</span>
-                                </div>
-                                <div class="filter-menu__facet">
-                                    <div class="filter-menu__seting">
-                                        <label class="filter-menu__checkbox-item">
-                                            <span class="i-checkbox">
-                                                <input class="i-checkbox__real" type="checkbox" value="wortex">
-                                            </span>
-                                            <span class="filter-menu__checkbox-text"> WORTEX </span>
-                                        </label>
-                                    </div>
-                                    <div class="filter-menu__seting">
-                                        <label class="filter-menu__checkbox-item">
-                                            <span class="i-checkbox">
-                                                <input class="i-checkbox__real" type="checkbox" value="molot">
-                                            </span>
-                                            <span class="filter-menu__checkbox-text"> MOLOT </span>
-                                        </label>
-                                    </div>
-                                    <div class="filter-menu__seting">
-                                        <label class="filter-menu__checkbox-item">
-                                            <span class="i-checkbox">
-                                                <input class="i-checkbox__real" type="checkbox" value="bosch">
-                                            </span>
-                                            <span class="filter-menu__checkbox-text"> BOSCH </span>
-                                        </label>
-                                    </div>
-                                    <div class="filter-menu__seting">
-                                        <label class="filter-menu__checkbox-item">
-                                            <span class="i-checkbox">
-                                                <input class="i-checkbox__real" type="checkbox" value="einhell">
-                                            </span>
-                                            <span class="filter-menu__checkbox-text"> EINHELL </span>
-                                        </label>
-                                    </div>
-                                    <div class="filter-menu__seting">
-                                        <label class="filter-menu__checkbox-item">
-                                            <span class="i-checkbox">
-                                                <input class="i-checkbox__real" type="checkbox" value="watt">
-                                            </span>
-                                            <span class="filter-menu__checkbox-text"> WATT </span>
-                                        </label>
-                                    </div>
-                                </div>
+                                Техника для уборки
                             </li>
                             <li class="filters-menu__item">
-                                <div class="filter-menu__label">
-                                    <span>Питание</span>
-                                </div>
-                                <div class="filter-menu__facet">
-                                    <div class="filter-menu__seting">
-                                        <label class="filter-menu__checkbox-item">
-                                            <span class="i-checkbox">
-                                                <input class="i-checkbox__real" type="checkbox" value="акб">
-                                            </span>
-                                            <span class="filter-menu__checkbox-text"> АКБ </span>
-                                        </label>
-                                    </div>
-                                    <div class="filter-menu__seting">
-                                        <label class="filter-menu__checkbox-item">
-                                            <span class="i-checkbox">
-                                                <input class="i-checkbox__real" type="checkbox" value="сеть">
-                                            </span>
-                                            <span class="filter-menu__checkbox-text"> Сеть, 220В </span>
-                                        </label>
-                                    </div>
-                                </div>
+                                Уход за одеждой
                             </li>
-                            <li class="filters-menu__item"></li>
-                            <li class="filters-menu__item"></li>
-                            <li class="filters-menu__item"></li>
+                            <li class="filters-menu__item">
+                                Климатическая техника
+                            </li>
+                            <li class="filters-menu__item">
+                                Инструмент и оборудование
+                            </li>
+                            <li class="filters-menu__item">
+                                Освещение
+                            </li>
+                            <li class="filters-menu__item">
+                                Садовая техника
+                            </li>
+                            <li class="filters-menu__item">
+                                Смартфоны и телефоны
+                            </li>
+                            <li class="filters-menu__item">
+                                Компьютерные комплектующие
+                            </li>
+                            <li class="filters-menu__item">
+                                Акустика
+                            </li>
+                            <li class="filters-menu__item">
+                                Телевизоры
+                            </li>
+                            <li class="filters-menu__item">
+                                Умный дом
+                            </li>
+                            <li class="filters-menu__item">
+                                Холодильники
+                            </li>
+                            <li class="filters-menu__item">
+                                Подготовка продуктов
+                            </li>
+                            <li class="filters-menu__item">
+                                Плиты,печи,духовки
+                            </li>
+                            <li class="filters-menu__item">
+                                Вытяжки
+                            </li>
+                            <li class="filters-menu__item">
+                                Приготовление пищи
+                            </li>
+                            <li class="filters-menu__item">
+                                Автоэлектроника
+                            </li>
+                            <li class="filters-menu__item">
+                                Автозвук
+                            </li>
+                            <li class="filters-menu__item">
+                                Автооборудование
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -109,9 +75,9 @@
             </div>
         </div>
     </div>
-    <script id="category-template" type="text/x-handlebars-template">
+    <script id="category-template" type="text/x-handlebars-template" defer>
         {{#each categories}}
-        <div class="products__card">
+        <div class="products__card" data-id="{{id}}">
             <img src="{{image}}" alt="{{name}}" width="100%" height="50%">
             <h2>{{name}}</h2>
             <p>Цена: {{price}}byn</p>
