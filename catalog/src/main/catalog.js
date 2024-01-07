@@ -8,7 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const subMenuFirst = document.querySelectorAll('.menu__submenu-first a');
     const subMenuSecond = document.querySelectorAll('.menu__submenu-second a');
     
-
+    function redirectToProduct(productId) {
+        window.location.href = `productCard.html?id=${productId}`;
+    }
   
     function filterProductsByCategory(selectedCategory) {
         return productData.filter(product => product.category === selectedCategory);
@@ -23,6 +25,14 @@ document.addEventListener('DOMContentLoaded', () => {
         const template = Handlebars.compile(source);
         const html = template({ categories: filteredProducts });
         panelContent.innerHTML = html;
+
+        const updatedProductCards = document.querySelectorAll('.products__card');
+        updatedProductCards.forEach(element => {
+            element.addEventListener('click', () => {
+                const productId = element.dataset.id;
+                redirectToProduct(productId);
+            });
+        });
     }
 
     function handleCategoryClick(event) {
