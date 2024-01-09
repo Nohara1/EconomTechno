@@ -20,7 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
         characteristic.textContent = key;
         characteristicValue.textContent = value;
         
-        row.style.height = '35px'
+        row.style.height = '35px';
+        characteristic.style.width = '50%';
         characteristic.style.border = '0.5px solid grey';
         characteristicValue.style.border = '0.5px solid grey'
         row.classList.add('table__row');
