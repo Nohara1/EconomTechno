@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const source = document.getElementById('category-template').innerHTML;
         const template = Handlebars.compile(source);
         const html = template({ categories: filteredProducts });
+
         panelContent.innerHTML = html;
 
         const updatedProductCards = document.querySelectorAll('.products__card');
@@ -39,8 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
         event.preventDefault();
         const selectedCategory = this.textContent.trim();
 
-        console.log(selectedCategory);
-
         h.textContent = this.textContent.trim();
 
         const filteredProducts = filterProductsByCategory(selectedCategory);
@@ -50,7 +49,6 @@ document.addEventListener('DOMContentLoaded', () => {
     function handleSubCategoryClick(event) {
         event.preventDefault();
         const selectedSubCategory = this.textContent.trim();
-        
         const filteredProducts = filterProductsBySubCategory(selectedSubCategory);
         displayProducts(filteredProducts); 
     }
@@ -66,6 +64,5 @@ document.addEventListener('DOMContentLoaded', () => {
     subMenuSecond.forEach(link => {
         link.addEventListener('click', handleSubCategoryClick);
     });
-
     displayProducts(productData);
 });

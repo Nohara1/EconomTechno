@@ -1,8 +1,12 @@
 $font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-a{
+
+*{
     font-family: $font;
+}
+a{
     text-decoration: none;
 }
+
 .footer__container{
     width: 1300px;
     height: 100%;
@@ -23,11 +27,12 @@ a{
             flex-direction: column;
             .firm-info{
                 width: 200px;
-                font-family: $font;
                 font-size: 16px;
             }
             .firm-location{
                 width: 300px;
+                display: inline-flex;
+                align-items: center;
             }
             .firm-telephone{
                 display: flex;

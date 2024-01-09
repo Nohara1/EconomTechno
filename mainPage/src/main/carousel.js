@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function(){
     let i = 0;
 
     slides.forEach((slide) => {
-
         const description = document.createElement('p');
         const name = document.createElement('a');
         const price = document.createElement('span');

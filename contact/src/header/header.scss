@@ -14,9 +14,12 @@ $font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Ar
     opacity: 0;
 }
 
+*{
+    font-family: $font;
+}
 a{
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: underline;
     color: $color-text;
 }
 .header__container{
@@ -53,7 +56,6 @@ a{
                 }
                 .menu__item{
                     font-size: 1.2em;
-                    font-family: $font;
                     padding: 1em;
                     .menu__link:hover{
                         transition: color 0.3s;

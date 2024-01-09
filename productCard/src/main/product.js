@@ -10,8 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const product = productData.find(product => product.id == productId);
     const array = Object.entries(product.characteristics);
 
-    
-    
     for (const [key, value] of array){
         const row = document.createElement('tr');
         const characteristic = document.createElement('td');

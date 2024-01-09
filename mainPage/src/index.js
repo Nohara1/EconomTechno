@@ -10,10 +10,6 @@ const root = document.querySelector('main');
 const head = document.querySelector('header');
 const foot = document.querySelector('footer');
 
-
 head.append(Header);
 root.append(Main);
 foot.append(Footer);
-
-console.log(Main);
-
