@@ -3,6 +3,8 @@ $color-link: #8c8a86;
 $color-hover: red;
 $color-back: white;
 $font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+$mobile: 380px;
+$tablet: 768px;
 
 @mixin flex($align: center){
     display: flex;
@@ -22,15 +24,91 @@ a{
     text-decoration: underline;
     color: $color-text;
 }
+
+.active{
+    left: 0px !important;
+    transition: left 1s ease-in;
+}
 .header__container{
+    @media screen and (max-width: $mobile){
+        width: $mobile;
+    }; 
     @include flex();
     width: 1170px;
-    .header__logo{
+    .header__logo{ 
         width: 324px;
         height: 75px;
     };
+    .menu__burger{
+        display: none;
+        @media screen and (max-width: $mobile){
+            display: flex;
+        }; 
+        margin-left: 10px;
+        width: 40px;
+        height: 40px;
+        .menu__span-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 38px;
+            height: 38px;
+            cursor: pointer;
+            .menu__span {
+                display: block;
+                width: 100%;
+                height: 2px;
+                background-color: red;
+                transition: transform 0.5s ease-out;
+            }
+            &.close {
+                .menu__span:nth-child(1) {
+                    transform: translateY(19px) rotate(45deg);
+                }
+                .menu__span:nth-child(2) {
+                    opacity: 0;
+                }
+                .menu__span:nth-child(3) {
+                    transform: translateY(-6px) rotate(-45deg);
+                }
+            }
+        }
+        .menu__burger-item{
+            transition: left 1s ease-in;
+            display: flex;
+            left: 380px;
+            top: 120px;
+            justify-content: center;
+            position: absolute;
+            align-items: center;
+            background-color: red;
+            width: $mobile;
+            height: 500px;
+            .burger__nav{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 80%;
+                height: 80%;
+                .burger__nav-navigation{
+                    width: 100%;
+                    height: 100%;
+                    .burger__nav-navigation-ul{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 60px;
+                        list-style: none;
+                        padding: 0;
+                    }
+                }  
+            }
+        }
+    }
 }
 .header__row{
+    @media screen and (max-width: $mobile){
+        display: none;
+    }; 
     @include flex();
     flex-direction: row;
     width: 100%;
@@ -67,6 +145,9 @@ a{
     }
 }
 .header__basket{
+    @media screen and (max-width: $mobile){
+        display: none;
+    }; 
     display: flex;
     flex-direction: row;
     gap: 30px;
