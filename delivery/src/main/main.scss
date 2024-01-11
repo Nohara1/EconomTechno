@@ -15,7 +15,11 @@ $tablet: 768px;
 *{
     font-family: $font;
 }
+
 h2{
+    @media screen and (max-width: $tablet){
+        font-size: 40px;
+    }; 
     @media screen and (max-width: $mobile){
         font-size: 32px;
     }; 
@@ -45,6 +49,11 @@ h3{
             text-align: center;
             width: 1300px;
             .delivery-item__description{
+                @media screen and (max-width: $tablet){
+                    width: $tablet;
+                    text-align: center;
+                    font-size: 18px;
+                }; 
                 @media screen and (max-width: $mobile){
                     width: 370px;
                     text-align: center;
@@ -63,14 +72,17 @@ h3{
                 };
             }
             .payment-metods{
-                @media screen and (max-width: $mobile){
-                    height: 100%;
-                }; 
                 display: flex;
                 justify-content: center;
                 width: 100%;
                 height: 300px;
+                @media screen and (max-width: $mobile){
+                    height: 100%;
+                }; 
                 .payment-metods__row{
+                    @media screen and (max-width: $tablet){
+                        height: 100%;
+                    }; 
                     @media screen and (max-width: $mobile){
                         height: 100%;
                     }; 
@@ -89,6 +101,9 @@ h3{
                         border: 0.5px solid grey;
                         box-sizing: border-box;
                         .payment-metods__item-title{
+                            @media screen and (max-width: $tablet){
+                                font-size: 18px;
+                            };
                             @media screen and (max-width: $mobile){
                                 font-size: 16px;
                             }; 
@@ -96,8 +111,12 @@ h3{
                             font-size: 20px;
                         }
                         .payment-metods__item-text{
+                            @media screen and (max-width: $tablet){
+                                font-size: 18px;
+                                width: 80%;
+                            }; 
                             @media screen and (max-width: $mobile){
-                                font-size: 14px;
+                                font-size: 16px;
                                 width: 80%;
                             }; 
                             width: 60%;

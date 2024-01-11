@@ -20,6 +20,11 @@ $tablet: 768px;
 *{
     font-family: $font
 }
+h1{
+    @media screen and (max-width: $tablet){
+        font-size: 40px;
+    }; 
+}
 
 
 .main__container{
@@ -32,6 +37,9 @@ $tablet: 768px;
         @include width-height();
         padding: 120px 0px 0px 0px;
         .about__container-item{
+            @media screen and (max-width: $tablet){
+                width: $tablet;
+            }; 
             @media screen and (max-width: $mobile){
                 width: $mobile;
             }; 
@@ -42,6 +50,9 @@ $tablet: 768px;
                 width: 100%;
                 height: 45%;
                 .company-desc__row{
+                    @media screen and (max-width: $tablet){
+                        width: 748px;
+                    };
                     @media screen and (max-width: $mobile){
                         width: 360px;
                     }; 
@@ -50,12 +61,15 @@ $tablet: 768px;
                     @include width-height();
                     padding: 20px 10px ;
                     .company-desc__text-box{
+                        @media screen and (max-width: $tablet){
+                            font-size: 18px;
+                        };
                         @media screen and (max-width: $mobile){
                             width: $mobile;
                             text-align: center;
                             background-color: red;
                             border-radius: 20px;
-                            font-size: 15px;
+                            font-size: 16px;
                             color: whitesmoke;
                             padding: 20px;
                         }; 
@@ -67,6 +81,11 @@ $tablet: 768px;
                         @media screen and (max-width: $mobile){
                             display: none;
                         }; 
+                        img{
+                            @media screen and (max-width: $tablet){
+                                width: 380px;
+                            };
+                        }
                         @include width-height-block();
                     }
                 }

@@ -17,6 +17,9 @@ $tablet: 768px;
 }
 
 .h1{
+    @media screen and (max-width: $tablet){
+        font-size: 40px;
+    }; 
     color: red;
     font-size: 45px;
     @media screen and (max-width: $mobile){
@@ -41,14 +44,19 @@ $tablet: 768px;
         @include width-height();
         padding: 120px 0px 0px 0px;
         .contact__container-item{
+            @media screen and (max-width: $tablet){
+                width: $tablet;
+            };
             @media screen and (max-width: $mobile){
                 width: $mobile;
-                height: 100%;
             }; 
             text-align: center;
             width: 1300px;
             height: 100%;
             .contact__description{
+                @media screen and (max-width: $tablet){
+                    width: 748px;
+                }; 
                 @media screen and (max-width: $mobile){
                     width: 360px;
                 }; 
@@ -57,6 +65,9 @@ $tablet: 768px;
                 width: 100%;
                 padding: 20px 10px;
                 .description__text{
+                    @media screen and (max-width: $tablet){
+                        font-size: 18px;
+                    }; 
                     @media screen and (max-width: $mobile){
                         width: 100%;
                         display: flex;
@@ -77,6 +88,11 @@ $tablet: 768px;
                     }
                 }
                 .description__image{
+                    img{
+                        @media screen and (max-width: $tablet){
+                            width: 100%;
+                        }; 
+                    }
                     @media screen and (max-width: $mobile){
                         display: none;
                      }; 

@@ -59,7 +59,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**************************/
 /***/ (() => {
 
-eval("document.addEventListener('DOMContentLoaded', function(){\r\n    const burgerOpen = document.querySelector('.menu__burger');\r\n    const burgerMenu = document.querySelector('.menu__burger-item');\r\n    const menuSpanItem = document.querySelector('.menu__span-item');\r\n\r\n    burgerOpen.addEventListener('click', () =>{\r\n        burgerMenu.classList.toggle('active');\r\n        \r\n    });\r\n    menuSpanItem.addEventListener('click', function() {\r\n        this.classList.toggle('close');\r\n    });\r\n})\n\n//# sourceURL=webpack://economtechno/./header/burger.js?");
+eval("document.addEventListener('DOMContentLoaded', function(){\r\n    const burgerOpen = document.querySelector('.menu__span-item');\r\n    const burgerMenu = document.querySelector('.menu__burger-item');\r\n    const menuSpanItem = document.querySelector('.menu__span-item');\r\n\r\n    burgerOpen.addEventListener('click', () =>{\r\n        burgerMenu.classList.toggle('active');\r\n        \r\n    });\r\n    menuSpanItem.addEventListener('click', function() {\r\n        this.classList.toggle('close');\r\n    });\r\n})\n\n//# sourceURL=webpack://economtechno/./header/burger.js?");
 
 /***/ }),
 

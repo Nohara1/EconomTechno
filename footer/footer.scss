@@ -10,12 +10,19 @@ a{
 }
 
 .footer__container{
+    @media screen and (max-width: $tablet){
+        width: $tablet;
+    };
     @media screen and (max-width: $mobile){
         width: $mobile;
     }; 
     width: 1300px;
     height: 100%;
     .footer__row{
+        @media screen and (max-width: $tablet){
+            grid-template-columns: repeat(2, auto);
+            justify-content: space-around;
+        };
         @media screen and (max-width: $mobile){
             padding: 0px;
             width: $mobile;

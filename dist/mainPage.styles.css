@@ -14,6 +14,9 @@ html {
     @media screen and (max-width: 380px) {
       html body {
         overflow-x: hidden; } }
+    @media screen and (max-width: 768px) {
+      html body {
+        overflow-x: hidden; } }
     html body header {
       display: flex;
       flex-direction: column;
@@ -24,6 +27,9 @@ html {
       justify-content: center;
       background-color: white;
       z-index: 9999; }
+      @media screen and (max-width: 768px) {
+        html body header {
+          width: 768px; } }
       @media screen and (max-width: 380px) {
         html body header {
           width: 380px; } }
@@ -33,16 +39,21 @@ html {
       align-items: center;
       height: 100%;
       width: 100%; }
+      @media screen and (max-width: 768px) {
+        html body main {
+          width: 768px; } }
       @media screen and (max-width: 380px) {
         html body main {
-          width: 380px;
-          height: 100%; } }
+          width: 380px; } }
     html body footer {
       display: flex;
       flex-direction: column;
       align-items: center;
       width: 100%;
       height: 200px; }
+      @media screen and (max-width: 768px) {
+        html body footer {
+          width: 768px; } }
       @media screen and (max-width: 380px) {
         html body footer {
           width: 380px;
@@ -68,6 +79,10 @@ a {
   align-items: center;
   text-align: center;
   width: 1170px; }
+  @media screen and (max-width: 768px) {
+    .header__container {
+      width: 768px;
+      justify-content: space-around; } }
   @media screen and (max-width: 380px) {
     .header__container {
       width: 380px; } }
@@ -79,6 +94,9 @@ a {
     margin-left: 10px;
     width: 40px;
     height: 40px; }
+    @media screen and (max-width: 768px) {
+      .header__container .menu__burger {
+        display: flex; } }
     @media screen and (max-width: 380px) {
       .header__container .menu__burger {
         display: flex; } }
@@ -104,7 +122,6 @@ a {
     .header__container .menu__burger .menu__burger-item {
       transition: left 1s ease-in;
       display: flex;
-      left: 380px;
       top: 120px;
       justify-content: center;
       position: absolute;
@@ -112,6 +129,14 @@ a {
       background-color: red;
       width: 380px;
       height: 500px; }
+      @media screen and (max-width: 768px) {
+        .header__container .menu__burger .menu__burger-item {
+          width: 768px;
+          left: 768px; } }
+      @media screen and (max-width: 380px) {
+        .header__container .menu__burger .menu__burger-item {
+          width: 380px;
+          left: 380px; } }
       .header__container .menu__burger .menu__burger-item .burger__nav {
         display: flex;
         align-items: center;
@@ -127,6 +152,12 @@ a {
             gap: 60px;
             list-style: none;
             padding: 0; }
+            @media screen and (max-width: 768px) {
+              .header__container .menu__burger .menu__burger-item .burger__nav .burger__nav-navigation .burger__nav-navigation-ul {
+                gap: 50px; } }
+            @media screen and (max-width: 768px) {
+              .header__container .menu__burger .menu__burger-item .burger__nav .burger__nav-navigation .burger__nav-navigation-ul .menu__item {
+                font-size: 28px; } }
 
 .header__row {
   display: flex;
@@ -135,6 +166,9 @@ a {
   flex-direction: row;
   width: 100%;
   height: 75px; }
+  @media screen and (max-width: 768px) {
+    .header__row {
+      display: none; } }
   @media screen and (max-width: 380px) {
     .header__row {
       display: none; } }
@@ -168,6 +202,9 @@ a {
   flex-direction: row;
   gap: 30px; }
   @media screen and (max-width: 380px) {
+    .header__basket {
+      display: none; } }
+  @media screen and (max-width: 768px) {
     .header__basket {
       display: none; } }
   .header__basket .basket__link:hover {
@@ -262,6 +299,9 @@ h2 {
       display: flex;
       align-items: center;
       justify-content: center; }
+      @media screen and (max-width: 768px) {
+        .hero .hero__bg .hero__container {
+          width: 600px; } }
       @media screen and (max-width: 380px) {
         .hero .hero__bg .hero__container {
           width: 380px; } }
@@ -275,7 +315,7 @@ h2 {
         @media screen and (max-width: 380px) {
           .hero .hero__bg .hero__container .hero__textbox {
             padding-top: 10;
-            font-size: 14px; } }
+            font-size: 16px; } }
         .hero .hero__bg .hero__container .hero__textbox h1 {
           font-size: 40px;
           margin: 0 auto; }
@@ -355,7 +395,7 @@ h2 {
               @media screen and (max-width: 380px) {
                 .popular .popular__slidercards .swiper-container .swiper-wrapper .swiper-slide .slide .slide-description {
                   width: 360px;
-                  font-size: 14px;
+                  font-size: 16px;
                   padding: 0px;
                   height: 100px; } }
             .popular .popular__slidercards .swiper-container .swiper-wrapper .swiper-slide .slide .slide-name {
@@ -389,6 +429,9 @@ h2 {
     justify-content: space-between;
     width: 1300px;
     height: 100%; }
+    @media screen and (max-width: 768px) {
+      .catalog-cards .catalog-cards__container {
+        width: 768px; } }
     @media screen and (max-width: 380px) {
       .catalog-cards .catalog-cards__container {
         width: 380px;
@@ -402,12 +445,21 @@ h2 {
         background-color: red;
         width: 400px;
         height: 100%; }
+        @media screen and (max-width: 768px) {
+          .catalog-cards .catalog-cards__container .container-row .catalog-cards__card {
+            width: 240px;
+            height: 350px; } }
         @media screen and (max-width: 380px) {
           .catalog-cards .catalog-cards__container .container-row .catalog-cards__card {
             width: 120px;
             height: 200px; } }
         .catalog-cards .catalog-cards__container .container-row .catalog-cards__card .card-info {
           text-align: center; }
+          @media screen and (max-width: 768px) {
+            .catalog-cards .catalog-cards__container .container-row .catalog-cards__card .card-info {
+              display: flex;
+              flex-direction: column;
+              align-items: center; } }
           @media screen and (max-width: 380px) {
             .catalog-cards .catalog-cards__container .container-row .catalog-cards__card .card-info {
               display: flex;
@@ -415,6 +467,10 @@ h2 {
               align-items: center; } }
           .catalog-cards .catalog-cards__container .container-row .catalog-cards__card .card-info .card-photo {
             height: 230px; }
+            @media screen and (max-width: 768px) {
+              .catalog-cards .catalog-cards__container .container-row .catalog-cards__card .card-info .card-photo {
+                width: 200px;
+                height: 140px; } }
             @media screen and (max-width: 380px) {
               .catalog-cards .catalog-cards__container .container-row .catalog-cards__card .card-info .card-photo {
                 width: 100px;
@@ -436,6 +492,9 @@ h2 {
             margin-top: 10px;
             transition: all 0.5s ease;
             cursor: pointer; }
+            @media screen and (max-width: 768px) {
+              .catalog-cards .catalog-cards__container .container-row .catalog-cards__card .card-info .card-button {
+                width: 200px; } }
             @media screen and (max-width: 380px) {
               .catalog-cards .catalog-cards__container .container-row .catalog-cards__card .card-info .card-button {
                 width: 100px; } }
@@ -450,23 +509,31 @@ h2 {
   padding: 80px 0 20px; }
   @media screen and (max-width: 380px) {
     .advantages {
-      height: 1150px;
+      height: 100%;
       padding: 0px;
       align-items: baseline; } }
   .advantages .advantages__container {
     text-align: center;
     width: 1300px;
-    height: 640px; }
+    height: 100%; }
+    @media screen and (max-width: 768px) {
+      .advantages .advantages__container {
+        width: 768px; } }
     @media screen and (max-width: 380px) {
       .advantages .advantages__container {
-        width: 380px;
-        height: 1100px; } }
+        width: 380px; } }
     .advantages .advantages__container .advantages__list {
       padding-top: 30px;
       width: 100%;
       height: 520px;
       display: grid;
       grid-template-columns: repeat(4, 325px); }
+      @media screen and (max-width: 768px) {
+        .advantages .advantages__container .advantages__list {
+          width: 768px;
+          height: 100%;
+          justify-content: center;
+          grid-template-columns: repeat(2, 300px); } }
       @media screen and (max-width: 380px) {
         .advantages .advantages__container .advantages__list {
           width: 380px;
@@ -478,11 +545,17 @@ h2 {
         .advantages .advantages__container .advantages__list .advantages-card .advantage-card__text {
           text-align: center;
           font-size: 20px; }
+          @media screen and (max-width: 768px) {
+            .advantages .advantages__container .advantages__list .advantages-card .advantage-card__text {
+              font-size: 18px; } }
           @media screen and (max-width: 380px) {
             .advantages .advantages__container .advantages__list .advantages-card .advantage-card__text {
               font-size: 16px; } }
         .advantages .advantages__container .advantages__list .advantages-card:hover {
           transform: translateY(-60px); }
+          @media screen and (max-width: 768px) {
+            .advantages .advantages__container .advantages__list .advantages-card:hover {
+              transform: translateY(0px); } }
           @media screen and (max-width: 380px) {
             .advantages .advantages__container .advantages__list .advantages-card:hover {
               transform: translateY(0px); } }
@@ -491,6 +564,10 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center; }
+  @media screen and (max-width: 768px) {
+    .producers {
+      width: 768px;
+      height: 100%; } }
   @media screen and (max-width: 380px) {
     .producers {
       width: 380px;
@@ -499,6 +576,10 @@ h2 {
     text-align: center;
     width: 1000px;
     height: 650px; }
+    @media screen and (max-width: 768px) {
+      .producers .producers__container {
+        width: 768px;
+        height: 1200px; } }
     @media screen and (max-width: 380px) {
       .producers .producers__container {
         width: 380px;
@@ -509,6 +590,11 @@ h2 {
       grid-template-columns: repeat(4, 240px);
       gap: 10px;
       padding-top: 30px; }
+      @media screen and (max-width: 768px) {
+        .producers .producers__container .producers__list {
+          width: 768px;
+          justify-content: center;
+          grid-template-columns: repeat(2, 300px); } }
       @media screen and (max-width: 380px) {
         .producers .producers__container .producers__list {
           width: 380px;
@@ -527,6 +613,10 @@ h2 {
         .producers .producers__container .producers__list .producers__item:hover {
           transform: scale(1.2);
           z-index: 1; }
+          @media screen and (max-width: 768px) {
+            .producers .producers__container .producers__list .producers__item:hover {
+              transform: scale(1);
+              z-index: 0; } }
           @media screen and (max-width: 380px) {
             .producers .producers__container .producers__list .producers__item:hover {
               transform: scale(1);
@@ -540,13 +630,18 @@ h2 {
   align-items: center;
   justify-content: center;
   padding: 40px 0 20px; }
-  @media screen and (max-width: 380px) {
+  @media screen and (max-width: 768px) {
     .company-desk {
-      height: 950px; } }
+      height: 100%;
+      padding: 0px; } }
   .company-desk .company-desk__container {
     text-align: center;
     height: 1040px;
     width: 1300px; }
+    @media screen and (max-width: 768px) {
+      .company-desk .company-desk__container {
+        width: 768px;
+        height: 100%; } }
     @media screen and (max-width: 380px) {
       .company-desk .company-desk__container {
         width: 380px; } }
@@ -576,9 +671,14 @@ h2 {
           text-align: left;
           font-size: 20px;
           border-radius: 20px; }
+          @media screen and (max-width: 768px) {
+            .company-desk .company-desk__container .company-desk__row .company-desk__column .company-desk__text-box {
+              height: 550px;
+              font-size: 18px; } }
           @media screen and (max-width: 380px) {
             .company-desk .company-desk__container .company-desk__row .company-desk__column .company-desk__text-box {
-              font-size: 15px; } }
+              font-size: 16px;
+              height: 100%; } }
         .company-desk .company-desk__container .company-desk__row .company-desk__column .company-desk__img-box {
           display: flex;
           align-items: center;
@@ -588,6 +688,9 @@ h2 {
           @media screen and (max-width: 380px) {
             .company-desk .company-desk__container .company-desk__row .company-desk__column .company-desk__img-box {
               display: none; } }
+          @media screen and (max-width: 768px) {
+            .company-desk .company-desk__container .company-desk__row .company-desk__column .company-desk__img-box img {
+              width: 384px !important; } }
 
 /*!*************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./footer/footer.scss ***!
@@ -601,6 +704,9 @@ a {
 .footer__container {
   width: 1300px;
   height: 100%; }
+  @media screen and (max-width: 768px) {
+    .footer__container {
+      width: 768px; } }
   @media screen and (max-width: 380px) {
     .footer__container {
       width: 380px; } }
@@ -614,6 +720,10 @@ a {
     column-gap: 24px;
     text-align: center;
     row-gap: 30px; }
+    @media screen and (max-width: 768px) {
+      .footer__container .footer__row {
+        grid-template-columns: repeat(2, auto);
+        justify-content: space-around; } }
     @media screen and (max-width: 380px) {
       .footer__container .footer__row {
         padding: 0px;

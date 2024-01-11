@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(){
-    const burgerOpen = document.querySelector('.menu__burger');
+    const burgerOpen = document.querySelector('.menu__span-item');
     const burgerMenu = document.querySelector('.menu__burger-item');
     const menuSpanItem = document.querySelector('.menu__span-item');
 

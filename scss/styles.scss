@@ -17,12 +17,18 @@ html{
         @media screen and (max-width: $mobile){
             overflow-x: hidden;
         }
+        @media screen and (max-width: $tablet){
+            overflow-x: hidden;
+        }
         @include flex();
         width: $width-desctop;
         height: $width-desctop;
         margin: 0 auto;
         header{
             @include flex();
+            @media screen and (max-width: $tablet){
+                width: $tablet;
+            }; 
             @media screen and (max-width: $mobile){
                 width: $mobile;
             }; 
@@ -34,15 +40,20 @@ html{
             z-index: 9999;
         };
         main{
+            @media screen and (max-width: $tablet){
+                width: $tablet;
+            }; 
             @media screen and (max-width: $mobile){
                 width: $mobile;
-                height: 100%;
             }; 
             @include flex();
             height: 100%;
             width: $width-desctop;
         }
         footer{
+            @media screen and (max-width: $tablet){
+                width: $tablet;
+            }; 
             @media screen and (max-width: $mobile){
                 width: $mobile;
                 height: 350px;
