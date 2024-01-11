@@ -89,7 +89,7 @@ module.exports = {
             patterns: [
               {
                 from: 'images/', 
-                to: 'imag', 
+                to: 'images', 
               },
             ],
           }),
