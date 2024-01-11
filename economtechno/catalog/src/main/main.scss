@@ -1,0 +1,149 @@
+$font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+$mobile: 380px;
+$tablet: 768px;
+
+@mixin flex(){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin width-height{
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    font-family: $font;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+    @media screen and (max-width: $tablet){
+        font-size: 40px;
+    };
+    @media screen and (max-width: $mobile){
+        font-size: 30px;
+    }
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+}
+
+.main__container{
+    @include width-height();
+    .catalog__container{
+        @include flex();
+        @include width-height();
+        padding: 120px 0px 0px 0px;
+        .catalog__column{
+            @media screen and (max-width: $mobile){
+                    width: 380px;
+            }
+            width: 1300px;
+            height: 100%;
+            .catalog__sidebar{
+                width: 30%;
+                height: 100%;
+            }
+        }
+    }
+}
+.b-panel{
+    @include width-height();
+    @media screen and (max-width: $tablet){
+        width: 748px;
+        padding: 0px 10px 0px 10px;
+    }
+    @media screen and (max-width: $mobile){
+        width: $mobile;
+        display: flex;
+        flex-direction: column;
+    }
+    display: flex;
+    flex-direction: row;
+    .b-panel__content{
+        @media screen and (max-width: $mobile){
+            width: 380px;
+            display: flex;
+            flex-direction: column;
+            padding: 10px 0px 0px;
+            align-items: center;
+            gap: 5px;
+        }
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 30px;
+        width: 70%;
+        height: 100%;
+        padding: 20px 5px 0px 5px;
+        .products__card{
+            @media screen and (max-width: $tablet){
+                width: 240px;
+            }
+            cursor: pointer;
+            font-size: 20px;
+            width: 280px;
+            height: 100%;
+            transition: transform 0.3s ease-in-out;
+            &:hover{
+                @media screen and (max-width: $tablet){
+                    transform: scale(1);
+                }
+                @media screen and (max-width: $mobile){
+                    transform: scale(1);
+                }
+                transform: scale(1.03);
+            }
+            h2{
+                @media screen and (max-width: $mobile){
+                    font-size: 20px;
+                }
+            }
+            p{
+                @media screen and (max-width: $tablet){
+                    font-size: 18px;
+                }
+                @media screen and (max-width: $mobile){
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .b-panel__sidebar{
+        @media screen and (max-width: $mobile){
+            width: 380px;
+        }
+        font-size: 20px;
+        width: 30%;
+        height: 100%;
+        .filters-menu{
+            @media screen and (max-width: $tablet){
+                font-size: 18px;
+                gap: 30px;
+            }
+            @media screen and (max-width: $mobile){
+                text-align: center;
+                font-size: 16px;
+                gap: 10px;
+            }
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            .filters-menu__item{
+                cursor: pointer;
+                &:hover{
+                    transition: all 0.2s ease-in-out;
+                    color: red;
+                }
+            }
+        }
+    }
+}
