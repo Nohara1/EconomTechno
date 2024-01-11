@@ -103,7 +103,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module) => {
 
 "use strict";
-eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    // eslint-disable-next-line no-param-reassign\n    options = {};\n  }\n\n  if (!url) {\n    return url;\n  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign\n\n\n  url = String(url.__esModule ? url.default : url);\n\n  if (options.hash) {\n    // eslint-disable-next-line no-param-reassign\n    url += options.hash;\n  }\n\n  if (options.maybeNeedQuotes && /[\\t\\n\\f\\r \"'=<>`]/.test(url)) {\n    return \"\\\"\".concat(url, \"\\\"\");\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack://economtechno/./node_modules/html-loader/dist/runtime/getUrl.js?");
+eval("\r\n\r\nmodule.exports = function (url, options) {\r\n  if (!options) {\r\n    // eslint-disable-next-line no-param-reassign\r\n    options = {};\r\n  }\r\n\r\n  if (!url) {\r\n    return url;\r\n  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign\r\n\r\n\r\n  url = String(url.__esModule ? url.default : url);\r\n\r\n  if (options.hash) {\r\n    // eslint-disable-next-line no-param-reassign\r\n    url += options.hash;\r\n  }\r\n\r\n  if (options.maybeNeedQuotes && /[\\t\\n\\f\\r \"'=<>`]/.test(url)) {\r\n    return \"\\\"\".concat(url, \"\\\"\");\r\n  }\r\n\r\n  return url;\r\n};\n\n//# sourceURL=webpack://economtechno/./node_modules/html-loader/dist/runtime/getUrl.js?");
 
 /***/ }),
 
