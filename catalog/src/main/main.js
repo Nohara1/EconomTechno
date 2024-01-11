@@ -1,6 +1,6 @@
 import './main.scss';
 import main from './index.html';
-import htmlToElement from '../utils/htmlToElement';
+import htmlToElement from '../../../utils/htmlToElement.js';
 import  './catalog.js';
 
 const Main = htmlToElement(main);

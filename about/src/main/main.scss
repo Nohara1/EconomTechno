@@ -1,4 +1,6 @@
 $font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+$mobile: 380px;
+$tablet: 768px;
 
 @mixin flex(){
     display: flex;
@@ -19,13 +21,20 @@ $font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Ar
     font-family: $font
 }
 
+
 .main__container{
     @include width-height();
+    @media screen and (max-width: $mobile){
+        width: $mobile;
+    }; 
     .about__container{
         @include flex();
         @include width-height();
         padding: 120px 0px 0px 0px;
         .about__container-item{
+            @media screen and (max-width: $mobile){
+                width: $mobile;
+            }; 
             text-align: center;
             width: 1300px;
             height: 100%;
@@ -33,16 +42,31 @@ $font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Ar
                 width: 100%;
                 height: 45%;
                 .company-desc__row{
+                    @media screen and (max-width: $mobile){
+                        width: 360px;
+                    }; 
                     display: flex;
                     flex-direction: row;
                     @include width-height();
                     padding: 20px 10px ;
                     .company-desc__text-box{
+                        @media screen and (max-width: $mobile){
+                            width: $mobile;
+                            text-align: center;
+                            background-color: red;
+                            border-radius: 20px;
+                            font-size: 15px;
+                            color: whitesmoke;
+                            padding: 20px;
+                        }; 
                         font-size: 20px;
                         text-align: left;
                         @include width-height-block();
                     }
                     .company-desc__img-box{
+                        @media screen and (max-width: $mobile){
+                            display: none;
+                        }; 
                         @include width-height-block();
                     }
                 }

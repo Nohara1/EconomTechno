@@ -1,4 +1,6 @@
 $font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+$mobile: 380px;
+$tablet: 768px;
 
 @mixin flex(){
     display: flex;
@@ -16,6 +18,14 @@ $font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Ar
 h1{
     font-size: 45px;
     text-align: center;
+    @media screen and (max-width: $mobile){
+        font-size: 30px;
+    };
+}
+h2{
+    @media screen and (max-width: $mobile){
+        text-align: center;
+    };
 }
 
 
@@ -26,28 +36,45 @@ h1{
         @include width-height();
         padding-top: 120px;
         .container{
+            @media screen and (max-width: $mobile){
+                width: $mobile;
+            };
             width: 1300px;
             height: 100%;
         }
     }
 }
 .product__row{
+    @media screen and (max-width: $mobile){
+        flex-direction: column;
+    };
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     @include width-height();
     padding-top: 40px;
     .product__image{
+        @media screen and (max-width: $mobile){
+            width: $mobile;
+            height: $mobile;
+        };
         width: 480px;
         height: 480px;
     }
     .preview-characteristics__wrapper{
+        @media screen and (max-width: $mobile){
+            width: $mobile;
+            text-align: center;
+        };
         white-space: pre-line;
         width: 500px;
         line-height: 35px;
         font-size: 16px;
     }
     .delivery-information{
+        @media screen and (max-width: $mobile){
+            padding-top: 10px;
+        };
         display: flex;
         flex-direction: row;
         border-top: 1px solid black;
@@ -73,11 +100,19 @@ h1{
 }
 .product__characteristick{
     @include width-height();
+    @media screen and (max-width: $mobile){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    };
     .product__characteristick-head{
         text-align: center;
         color: red;
     }
     .product__table{ 
+        @media screen and (max-width: $mobile){
+            width: 375px;
+        };
         border-collapse:collapse;
         text-align: left;
         font-size: 20px;
