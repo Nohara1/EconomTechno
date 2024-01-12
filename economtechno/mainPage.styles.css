@@ -381,7 +381,8 @@ h2 {
             transition: transform 0.3s ease; }
             @media screen and (max-width: 380px) {
               .popular .popular__slidercards .swiper-container .swiper-wrapper .swiper-slide .slide {
-                width: 380px; } }
+                width: 380px;
+                height: 580px; } }
             .popular .popular__slidercards .swiper-container .swiper-wrapper .swiper-slide .slide .slide-photo {
               display: flex;
               height: 310px;
@@ -397,7 +398,7 @@ h2 {
                   width: 360px;
                   font-size: 16px;
                   padding: 0px;
-                  height: 100px; } }
+                  height: 120px; } }
             .popular .popular__slidercards .swiper-container .swiper-wrapper .swiper-slide .slide .slide-name {
               height: 50px;
               text-decoration: none;
