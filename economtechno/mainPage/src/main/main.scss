@@ -120,7 +120,8 @@ h2{
                     .slide{
                         @include flex();
                         @media screen and (max-width: $mobile){
-                             width: $mobile;  
+                             width: $mobile;
+                             height: 580px;  
                         };
                         flex-direction: column;
                         width: 400px;
@@ -137,7 +138,7 @@ h2{
                                 width: 360px;  
                                 font-size: 16px;
                                 padding: 0px;
-                                height: 100px;
+                                height: 120px;
                            };
                             text-align: start;
                             height: 150px;
