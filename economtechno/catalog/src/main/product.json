@@ -17,7 +17,7 @@
             "Цвет:" : "Нержавеющая сталь"
         },
         "subCategory": "Подготовка продуктов",
-        "image": "/images/moulinexmiaso.png"
+        "image": "images/moulinexmiaso.png"
     },
     {
         "id": 2,
@@ -47,7 +47,7 @@
             "Гриль:" : "✓"
         },
         "subCategory": "Приготовление пищи",
-        "image": "/images/atlanta.png"
+        "image": "images/atlanta.png"
     },
     {
         "id": 3,
@@ -75,7 +75,7 @@
             "Автоматическая чистка от накипи :" : "✓"
         },
         "subCategory": "Приготовление пищи",
-        "image": "/images/saeco].png"
+        "image": "images/saeco].png"
     },
     {
         "id": 4,
@@ -99,7 +99,7 @@
             "Цвет :" : "черный"
         },
         "subCategory": "Подготовка продуктов",
-        "image": "/images/AFP-947.png"
+        "image": "images/AFP-947.png"
     },
     {
         "id": 5,
@@ -124,7 +124,7 @@
             "Используется для распиловки :" : "дерева"
         },
         "subCategory": "Инструмент и оборудование",
-        "image": "/images/1916L.png"
+        "image": "images/1916L.png"
     },
     {
         "id": 6,
@@ -147,7 +147,7 @@
             "Вес нетто :" : "2,4 кг"
         },
         "subCategory": "Инструмент и оборудование",
-        "image": "/images/MPL2006.png"
+        "image": "images/MPL2006.png"
     },
     {
         "id": 7,
@@ -173,7 +173,7 @@
             "Вес нетто :" : "1,86 кг"
         },
         "subCategory": "Инструмент и оборудование",
-        "image": "/images/AG1211.png"
+        "image": "images/AG1211.png"
     },
     {
         "id": 8,
@@ -195,7 +195,7 @@
             "Вес нетто :" : "19,76 кг"
         },
         "subCategory": "Инструмент и оборудование",
-        "image": "/images/DB1605.png"
+        "image": "images/DB1605.png"
     },
     {
         "id": 9,
@@ -219,7 +219,7 @@
             "Насадка для теста:" : "✓"
         },
         "subCategory": "Подготовка продуктов",
-        "image": "/images/amx-513.png"
+        "image": "images/amx-513.png"
     },
     {
         "id": 10,
@@ -245,7 +245,7 @@
             "Вес нетто:" : "8.5 кг"
         },
         "subCategory": "Вытяжки",
-        "image": "/images/CrosbyPower.png"
+        "image": "images/CrosbyPower.png"
     },
     {
         "id": 11,
@@ -276,7 +276,7 @@
             "Максимальная производительность отвода:" : "750 м³/ч"
         },
         "subCategory": "Вытяжки",
-        "image": "/images/CrosbyRocky.png"
+        "image": "images/CrosbyRocky.png"
     },
     {
         "id": 12,
@@ -307,7 +307,7 @@
             "Максимальная производительность отвода:" : "800 м³/ч"
         },
         "subCategory": "Вытяжки",
-        "image": "/images/FantasyLight.png"
+        "image": "images/FantasyLight.png"
     },
     {
         "id": 13,
@@ -337,7 +337,7 @@
             "Высота:" : "5,1 см"
         },
         "subCategory": "Плиты,печи,духовки",
-        "image": "/images/HGS433S.png"
+        "image": "images/HGS433S.png"
     },
     {
         "id": 14,
@@ -364,7 +364,7 @@
             "Глубина:" : "51,5 см"
         },
         "subCategory": "Плиты,печи,духовки",
-        "image": "/images/EEHS.32.4S.png"
+        "image": "images/EEHS.32.4S.png"
     },
     {
         "id": 15,
@@ -410,7 +410,7 @@
             "Время зарядки, ч:" : "2"
         },
         "subCategory": "Смартфоны и телефоны",
-        "image": "/images/DW2118.png"
+        "image": "images/DW2118.png"
     },
     {
         "id": 16,
@@ -463,7 +463,7 @@
             "Разъем для зарядки:" : "microUSB"
         },
         "subCategory": "Акустика",
-        "image": "/images/TFN-HS-BT450BKTFN-HS-BT450BK.png"
+        "image": "images/TFN-HS-BT450BKTFN-HS-BT450BK.png"
     },
     {
         "id": 17,
@@ -508,7 +508,7 @@
             "Разъем для зарядки:" : "USB Type-C"
         },
         "subCategory": "Акустика",
-        "image": "/images/A3952G11.png"
+        "image": "images/A3952G11.png"
     },
     {
         "id": 18,
@@ -536,7 +536,7 @@
             "Вес:" : "1 кг"
         },
         "subCategory": "Уход за одеждой",
-        "image": "/images/KT-984-1.png"
+        "image": "images/KT-984-1.png"
     },
     {
         "id": 19,
@@ -578,7 +578,7 @@
             "Паровой носик:" : "✓"
         },
         "subCategory": "Уход за одеждой",
-        "image": "/images/I-2226.png"
+        "image": "images/I-2226.png"
     },
     {
         "id": 20,
@@ -611,7 +611,7 @@
             "Глубина, см:" : "56.6"
         },
         "subCategory": "Плиты,печи,духовки",
-        "image": "/images/EB4610.png"
+        "image": "images/EB4610.png"
     },
     {
         "id": 21,
@@ -641,7 +641,7 @@
             "Вес нетто:" : "3,6 кг"
         },
         "subCategory": "Садовая техника",
-        "image": "/images/РУЧЕЕК-1.png"
+        "image": "images/РУЧЕЕК-1.png"
     },
     {
         "id": 22,
@@ -672,7 +672,7 @@
             "Вес, кг:" : "53"
         },
         "subCategory": "Стиральные и сушильные машины",
-        "image": "/images/MFDM1410WH06.png"
+        "image": "images/MFDM1410WH06.png"
     },
     {
         "id": 23,
@@ -701,7 +701,7 @@
             "Вес, кг:" : "1.6"
         },
         "subCategory": "Техника для уборки",
-        "image": "/images/VC01.png"
+        "image": "images/VC01.png"
     },
     {
         "id": 24,
@@ -738,7 +738,7 @@
             "Вес, кг:" : "1.8"
         },
         "subCategory": "Климатическая техника",
-        "image": "/images/2000M.png"
+        "image": "images/2000M.png"
     },
     {
         "id": 25,
@@ -774,7 +774,7 @@
             "Вес, г:" : "77"
         },
         "subCategory": "Компьютерные комплектующие",
-        "image": "/images/steal.png"
+        "image": "images/steal.png"
     },
     {
         "id": 26,
@@ -796,7 +796,7 @@
             "Высота:" : "60 см"
         },
         "subCategory": "Освещение",
-        "image": "/images/window.png"
+        "image": "images/window.png"
     },
     {
         "id": 27,
@@ -850,7 +850,7 @@
             "Вес (без подставки), кг:" : "4.65"
         },
         "subCategory": "Телевизоры",
-        "image": "/images/32LQ63006LA.png"
+        "image": "images/32LQ63006LA.png"
     },
     {
         "id": 28,
@@ -890,7 +890,7 @@
             "Масса:" : "60 г"
         },
         "subCategory": "Умный дом",
-        "image": "/images/TH1.png"
+        "image": "images/TH1.png"
     },
     {
         "id": 29,
@@ -926,7 +926,6 @@
             "Глубина, см:" : "54"
         },
         "subCategory": "Холодильники",
-        "image": "/images/ZIGMUND.png"
+        "image": "images/ZIGMUND.png"
     }
-
 ]
