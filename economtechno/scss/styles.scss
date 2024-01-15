@@ -1,0 +1,66 @@
+$mobile: 380px;
+$tablet: 768px;
+
+@mixin flex(){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+$width-desctop: 100%;
+$heith-desctop: 100%;
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    body{
+        @media screen and (max-width: $mobile){
+            overflow-x: hidden;
+        }
+        @media screen and (max-width: $tablet){
+            overflow-x: hidden;
+        }
+        @include flex();
+        width: $width-desctop;
+        height: $width-desctop;
+        margin: 0 auto;
+        header{
+            @include flex();
+            @media screen and (max-width: $tablet){
+                width: $tablet;
+            }; 
+            @media screen and (max-width: $mobile){
+                width: $mobile;
+            }; 
+            position: fixed;
+            width: $width-desctop;
+            height: 120px;
+            justify-content: center;
+            background-color: white;
+            z-index: 9999;
+        };
+        main{
+            @media screen and (max-width: $tablet){
+                width: $tablet;
+            }; 
+            @media screen and (max-width: $mobile){
+                width: $mobile;
+            }; 
+            @include flex();
+            height: 100%;
+            width: $width-desctop;
+        }
+        footer{
+            @media screen and (max-width: $tablet){
+                width: $tablet;
+            }; 
+            @media screen and (max-width: $mobile){
+                width: $mobile;
+                height: 350px;
+            }; 
+            @include flex();
+            width: $width-desctop;
+            height: 200px;
+        }
+    }
+}

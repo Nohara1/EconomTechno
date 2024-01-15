@@ -1,0 +1,88 @@
+<div class="main__container">
+    <div class="catalog__container">
+        <div class="catalog__column">
+            <h1 class="h1">
+               Каталог
+            </h1>
+            <div class="b-panel">
+                <div class="b-panel__sidebar">
+                    <div class="filters__inner">
+                        <ul class="filters-menu">
+                            <li class="filters-menu__item">
+                               Стиральные и сушильные машины
+                            </li>
+                            <li class="filters-menu__item">
+                                Техника для уборки
+                            </li>
+                            <li class="filters-menu__item">
+                                Уход за одеждой
+                            </li>
+                            <li class="filters-menu__item">
+                                Климатическая техника
+                            </li>
+                            <li class="filters-menu__item">
+                                Инструмент и оборудование
+                            </li>
+                            <li class="filters-menu__item">
+                                Освещение
+                            </li>
+                            <li class="filters-menu__item">
+                                Садовая техника
+                            </li>
+                            <li class="filters-menu__item">
+                                Смартфоны и телефоны
+                            </li>
+                            <li class="filters-menu__item">
+                                Компьютерные комплектующие
+                            </li>
+                            <li class="filters-menu__item">
+                                Акустика
+                            </li>
+                            <li class="filters-menu__item">
+                                Телевизоры
+                            </li>
+                            <li class="filters-menu__item">
+                                Умный дом
+                            </li>
+                            <li class="filters-menu__item">
+                                Холодильники
+                            </li>
+                            <li class="filters-menu__item">
+                                Подготовка продуктов
+                            </li>
+                            <li class="filters-menu__item">
+                                Плиты,печи,духовки
+                            </li>
+                            <li class="filters-menu__item">
+                                Вытяжки
+                            </li>
+                            <li class="filters-menu__item">
+                                Приготовление пищи
+                            </li>
+                            <li class="filters-menu__item">
+                                Автоэлектроника
+                            </li>
+                            <li class="filters-menu__item">
+                                Автозвук
+                            </li>
+                            <li class="filters-menu__item">
+                                Автооборудование
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="b-panel__content"></div>
+            </div>
+        </div>
+    </div>
+    <script id="category-template" type="text/x-handlebars-template" defer>
+        {{#each categories}}
+        <div class="products__card" data-id="{{id}}">
+            <img src="{{image}}" alt="{{name}}" width="100%" height="50%">
+            <h2>{{name}}</h2>
+            <p>Цена: {{price}}byn</p>
+            <p>{{description}}</p>
+        </div>
+        {{/each}}
+    </script>
+</div>
